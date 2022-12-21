@@ -1,0 +1,6652 @@
+{
+  "ads": [],
+  "pagination": {
+    "total": 2060,
+    "pages": 206,
+    "limit": 10
+  },
+  "filters": {
+    "regions": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 0,
+        "order": 1,
+        "param": "r",
+        "inUrl": true,
+        "type": "map",
+        "isVisible": false
+      },
+      "options": [
+        {
+          "slug": "NA",
+          "name": "North America",
+          "count": 942,
+          "slugSeo": "north-america"
+        },
+        {
+          "slug": "EU",
+          "name": "Europe",
+          "count": 870,
+          "slugSeo": "europe"
+        },
+        {
+          "slug": "AP",
+          "name": "Asia Pacific",
+          "count": 175,
+          "slugSeo": "asia-pacific"
+        },
+        {
+          "slug": "MEA",
+          "name": "Middle East & Africa",
+          "count": 39,
+          "slugSeo": "middle-east-africa"
+        },
+        {
+          "slug": "GC",
+          "name": "Greater China",
+          "count": 34,
+          "slugSeo": "greater-china"
+        }
+      ]
+    },
+    "countries": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 0,
+        "order": 3,
+        "param": "c",
+        "inUrl": true,
+        "type": "checkbox",
+        "isVisible": false
+      },
+      "options": [
+        {
+          "slug": "US",
+          "name": "USA",
+          "region": "NA",
+          "allowMultiple": false,
+          "slugSeo": "usa",
+          "count": 821
+        },
+        {
+          "slug": "GB",
+          "name": "Great Britain",
+          "region": "EU",
+          "allowMultiple": false,
+          "slugSeo": "great-britain",
+          "count": 260
+        },
+        {
+          "slug": "DE",
+          "name": "Germany",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "germany",
+          "count": 151
+        },
+        {
+          "slug": "CA",
+          "name": "Canada",
+          "region": "NA",
+          "allowMultiple": false,
+          "slugSeo": "canada",
+          "count": 121
+        },
+        {
+          "slug": "CH",
+          "name": "Switzerland",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "switzerland",
+          "count": 102
+        },
+        {
+          "slug": "FR",
+          "name": "France",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "france",
+          "count": 101
+        },
+        {
+          "slug": "JP",
+          "name": "Japan",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "japan",
+          "count": 54
+        },
+        {
+          "slug": "AU",
+          "name": "Australia",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "australia",
+          "count": 49
+        },
+        {
+          "slug": "IT",
+          "name": "Italy",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "italy",
+          "count": 48
+        },
+        {
+          "slug": "KR",
+          "name": "Korea-South",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "korea-south",
+          "count": 42
+        },
+        {
+          "slug": "BE",
+          "name": "Belgium",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "belgium",
+          "count": 29
+        },
+        {
+          "slug": "NL",
+          "name": "Netherlands",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "netherlands",
+          "count": 28
+        },
+        {
+          "slug": "NO",
+          "name": "Norway",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "norway",
+          "count": 23
+        },
+        {
+          "slug": "MC",
+          "name": "Monaco",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "monaco",
+          "count": 19
+        },
+        {
+          "slug": "ZA",
+          "name": "South Africa",
+          "region": "MEA",
+          "allowMultiple": false,
+          "slugSeo": "south-africa",
+          "count": 19
+        },
+        {
+          "slug": "PL",
+          "name": "Poland",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "poland",
+          "count": 18
+        },
+        {
+          "slug": "FI",
+          "name": "Finland",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "finland",
+          "count": 17
+        },
+        {
+          "slug": "HK",
+          "name": "Hong Kong",
+          "region": "GC",
+          "allowMultiple": false,
+          "slugSeo": "hong-kong",
+          "count": 16
+        },
+        {
+          "slug": "DK",
+          "name": "Denmark",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "denmark",
+          "count": 16
+        },
+        {
+          "slug": "CN",
+          "name": "Mainland China",
+          "region": "GC",
+          "allowMultiple": false,
+          "slugSeo": "mainland-china",
+          "count": 15
+        },
+        {
+          "slug": "CZ",
+          "name": "Czech Republic",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "czech-republic",
+          "count": 11
+        },
+        {
+          "slug": "SG",
+          "name": "Singapore",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "singapore",
+          "count": 11
+        },
+        {
+          "slug": "AT",
+          "name": "Austria",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "austria",
+          "count": 10
+        },
+        {
+          "slug": "ES",
+          "name": "Spain",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "spain",
+          "count": 9
+        },
+        {
+          "slug": "TH",
+          "name": "Thailand",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "thailand",
+          "count": 9
+        },
+        {
+          "slug": "AE",
+          "name": "U.A.E.",
+          "region": "MEA",
+          "allowMultiple": false,
+          "slugSeo": "u-a-e-",
+          "count": 8
+        },
+        {
+          "slug": "HU",
+          "name": "Hungary",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "hungary",
+          "count": 6
+        },
+        {
+          "slug": "BH",
+          "name": "Bahrain",
+          "region": "MEA",
+          "allowMultiple": false,
+          "slugSeo": "bahrain",
+          "count": 5
+        },
+        {
+          "slug": "BG",
+          "name": "Bulgaria",
+          "region": "EU",
+          "allowMultiple": false,
+          "slugSeo": "bulgaria",
+          "count": 5
+        },
+        {
+          "slug": "CY",
+          "name": "Cyprus",
+          "region": "EU",
+          "allowMultiple": false,
+          "slugSeo": "cyprus",
+          "count": 5
+        },
+        {
+          "slug": "ID",
+          "name": "Indonesia",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "indonesia",
+          "count": 4
+        },
+        {
+          "slug": "KW",
+          "name": "Kuwait",
+          "region": "MEA",
+          "allowMultiple": false,
+          "slugSeo": "kuwait",
+          "count": 4
+        },
+        {
+          "slug": "NZ",
+          "name": "New Zealand",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "new-zealand",
+          "count": 4
+        },
+        {
+          "slug": "SE",
+          "name": "Sweden",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "sweden",
+          "count": 4
+        },
+        {
+          "slug": "TW",
+          "name": "Taiwan",
+          "region": "GC",
+          "allowMultiple": false,
+          "slugSeo": "taiwan",
+          "count": 3
+        },
+        {
+          "slug": "LU",
+          "name": "Luxembourg",
+          "region": "EU",
+          "allowMultiple": false,
+          "slugSeo": "luxembourg",
+          "count": 3
+        },
+        {
+          "slug": "TR",
+          "name": "Turkey",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "turkey",
+          "count": 2
+        },
+        {
+          "slug": "PT",
+          "name": "Portugal",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "portugal",
+          "count": 2
+        },
+        {
+          "slug": "MY",
+          "name": "Malaysia",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "malaysia",
+          "count": 2
+        },
+        {
+          "slug": "IL",
+          "name": "Israel",
+          "region": "MEA",
+          "allowMultiple": false,
+          "slugSeo": "israel",
+          "count": 1
+        },
+        {
+          "slug": "RO",
+          "name": "Romania",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "romania",
+          "count": 1
+        },
+        {
+          "slug": "MA",
+          "name": "Morocco",
+          "region": "MEA",
+          "allowMultiple": true,
+          "slugSeo": "morocco",
+          "count": 1
+        },
+        {
+          "slug": "SA",
+          "name": "Saudi Arabia",
+          "region": "MEA",
+          "allowMultiple": false,
+          "slugSeo": "saudi-arabia",
+          "count": 1
+        },
+        {
+          "slug": "VN",
+          "name": "Vietnam",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "vietnam",
+          "count": 0
+        },
+        {
+          "slug": "IN",
+          "name": "India",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "india",
+          "count": 0
+        },
+        {
+          "slug": "AR",
+          "name": "Argentina",
+          "region": "LA",
+          "allowMultiple": false,
+          "slugSeo": "argentina",
+          "count": 0
+        },
+        {
+          "slug": "GR",
+          "name": "Greece",
+          "region": "EU",
+          "allowMultiple": false,
+          "slugSeo": "greece",
+          "count": 0
+        },
+        {
+          "slug": "QA",
+          "name": "Qatar",
+          "region": "MEA",
+          "allowMultiple": false,
+          "slugSeo": "qatar",
+          "count": 0
+        },
+        {
+          "slug": "CO",
+          "name": "Colombia",
+          "region": "LA",
+          "allowMultiple": false,
+          "slugSeo": "colombia",
+          "count": 0
+        },
+        {
+          "slug": "RU",
+          "name": "Russia",
+          "region": "EU",
+          "allowMultiple": false,
+          "slugSeo": "russia",
+          "count": 0
+        },
+        {
+          "slug": "PA",
+          "name": "Panama",
+          "region": "LA",
+          "allowMultiple": false,
+          "slugSeo": "panama",
+          "count": 0
+        },
+        {
+          "slug": "VE",
+          "name": "Venezuela",
+          "region": "LA",
+          "allowMultiple": false,
+          "slugSeo": "venezuela",
+          "count": 0
+        },
+        {
+          "slug": "AZ",
+          "name": "Azerbaijan",
+          "region": "EU",
+          "allowMultiple": true,
+          "slugSeo": "azerbaijan",
+          "count": 0
+        },
+        {
+          "slug": "BR",
+          "name": "Brazil",
+          "region": "LA",
+          "allowMultiple": false,
+          "slugSeo": "brazil",
+          "count": 0
+        },
+        {
+          "slug": "CL",
+          "name": "Chile",
+          "region": "LA",
+          "allowMultiple": false,
+          "slugSeo": "chile",
+          "count": 0
+        },
+        {
+          "slug": "OM",
+          "name": "Oman",
+          "region": "MEA",
+          "allowMultiple": false,
+          "slugSeo": "oman",
+          "count": 0
+        },
+        {
+          "slug": "PH",
+          "name": "Philippines",
+          "region": "AP",
+          "allowMultiple": false,
+          "slugSeo": "philippines",
+          "count": 0
+        },
+        {
+          "slug": "PR",
+          "name": "Puerto Rico",
+          "region": "LA",
+          "allowMultiple": false,
+          "slugSeo": "puerto-rico",
+          "count": 0
+        },
+        {
+          "slug": "LB",
+          "name": "Lebanon",
+          "region": "MEA",
+          "allowMultiple": false,
+          "slugSeo": "lebanon",
+          "count": 0
+        },
+        {
+          "slug": "MX",
+          "name": "Mexico",
+          "region": "LA",
+          "allowMultiple": false,
+          "slugSeo": "mexico",
+          "count": 0
+        }
+      ]
+    },
+    "dealers": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": false,
+        "uiOrder": 2,
+        "order": 4,
+        "param": "d",
+        "inUrl": true,
+        "type": "checkbox",
+        "isVisible": true
+      },
+      "options": [
+        {
+          "slug": "006385",
+          "name": "Ferrari of Fort Lauderdale",
+          "city": "Fort Lauderdale",
+          "region": "NA",
+          "count": 64,
+          "slugSeo": "ferrari-of-fort-lauderdale",
+          "tags": []
+        },
+        {
+          "slug": "006760",
+          "name": "Ferrari Quebec",
+          "city": "Montreal",
+          "region": "NA",
+          "count": 51,
+          "slugSeo": "ferrari-quebec",
+          "tags": []
+        },
+        {
+          "slug": "063976",
+          "name": "FMK",
+          "city": "서울",
+          "region": "AP",
+          "count": 42,
+          "slugSeo": "fmk",
+          "tags": []
+        },
+        {
+          "slug": "006810",
+          "name": "Ferrari of Long Island",
+          "city": "Plainview",
+          "region": "NA",
+          "count": 41,
+          "slugSeo": "ferrari-of-long-island",
+          "tags": []
+        },
+        {
+          "slug": "060639",
+          "name": "H.R. Owen London",
+          "city": "London",
+          "region": "EU",
+          "count": 35,
+          "slugSeo": "h-r-owen-london",
+          "tags": []
+        },
+        {
+          "slug": "060739",
+          "name": "Dick Lovett Swindon",
+          "city": "Swindon",
+          "region": "EU",
+          "count": 33,
+          "slugSeo": "dick-lovett-swindon",
+          "tags": []
+        },
+        {
+          "slug": "064117",
+          "name": "Charles Pozzi Paris",
+          "city": "Paris",
+          "region": "EU",
+          "count": 32,
+          "slugSeo": "charles-pozzi-paris",
+          "tags": []
+        },
+        {
+          "slug": "007001",
+          "name": "Ferrari of Washington ",
+          "city": "Sterling",
+          "region": "NA",
+          "count": 32,
+          "slugSeo": "ferrari-of-washington-",
+          "tags": []
+        },
+        {
+          "slug": "061115",
+          "name": "Ulrich Frankfurt",
+          "city": "Frankfurt am Main",
+          "region": "EU",
+          "count": 32,
+          "slugSeo": "ulrich-frankfurt",
+          "tags": []
+        },
+        {
+          "slug": "006120",
+          "name": "Continental Autosports",
+          "city": "Hinsdale",
+          "region": "NA",
+          "count": 31,
+          "slugSeo": "continental-autosports",
+          "tags": []
+        },
+        {
+          "slug": "006730",
+          "name": "Ferrari of San Diego",
+          "city": "San Diego",
+          "region": "NA",
+          "count": 31,
+          "slugSeo": "ferrari-of-san-diego",
+          "tags": []
+        },
+        {
+          "slug": "006740",
+          "name": "Ferrari of Newport Beach",
+          "city": "Newport Beach",
+          "region": "NA",
+          "count": 29,
+          "slugSeo": "ferrari-of-newport-beach",
+          "tags": []
+        },
+        {
+          "slug": "063982",
+          "name": "Maranello Sales",
+          "city": "Egham",
+          "region": "EU",
+          "count": 29,
+          "slugSeo": "maranello-sales",
+          "tags": []
+        },
+        {
+          "slug": "006480",
+          "name": "Ferrari of Central New Jersey",
+          "city": "Edison",
+          "region": "NA",
+          "count": 29,
+          "slugSeo": "ferrari-of-central-new-jersey",
+          "tags": []
+        },
+        {
+          "slug": "006485",
+          "name": "Boardwalk Ferrari",
+          "city": "Plano",
+          "region": "NA",
+          "count": 28,
+          "slugSeo": "boardwalk-ferrari",
+          "tags": []
+        },
+        {
+          "slug": "060049",
+          "name": "B.I. Collection AG",
+          "city": "Urdorf-Zurich",
+          "region": "EU",
+          "count": 28,
+          "slugSeo": "b-i-collection-ag",
+          "tags": []
+        },
+        {
+          "slug": "062954",
+          "name": "Meridien Modena",
+          "city": "New Forest",
+          "region": "EU",
+          "count": 27,
+          "slugSeo": "meridien-modena",
+          "tags": []
+        },
+        {
+          "slug": "060648",
+          "name": "JCT600 Leeds",
+          "city": "Leeds",
+          "region": "EU",
+          "count": 27,
+          "slugSeo": "jct600-leeds",
+          "tags": []
+        },
+        {
+          "slug": "061961",
+          "name": "Loris Kessel Auto SA",
+          "city": "Grancia",
+          "region": "EU",
+          "count": 26,
+          "slugSeo": "loris-kessel-auto-sa",
+          "tags": []
+        },
+        {
+          "slug": "006277",
+          "name": "Ferrari of San Francisco",
+          "city": "Mill Valley",
+          "region": "NA",
+          "count": 26,
+          "slugSeo": "ferrari-of-san-francisco",
+          "tags": []
+        },
+        {
+          "slug": "006155",
+          "name": "Ferrari of Atlanta",
+          "city": "Roswell",
+          "region": "NA",
+          "count": 26,
+          "slugSeo": "ferrari-of-atlanta",
+          "tags": []
+        },
+        {
+          "slug": "006860",
+          "name": "Ferrari of Palm Beach",
+          "city": "West Palm Beach",
+          "region": "NA",
+          "count": 26,
+          "slugSeo": "ferrari-of-palm-beach",
+          "tags": []
+        },
+        {
+          "slug": "006525",
+          "name": "Ferrari of Alberta",
+          "city": "Calgary",
+          "region": "NA",
+          "count": 26,
+          "slugSeo": "ferrari-of-alberta",
+          "tags": []
+        },
+        {
+          "slug": "006870",
+          "name": "Ferrari of Naples",
+          "city": "Naples",
+          "region": "NA",
+          "count": 25,
+          "slugSeo": "ferrari-of-naples",
+          "tags": []
+        },
+        {
+          "slug": "006335",
+          "name": "Ferrari of Central Florida Inc.",
+          "city": "Orlando",
+          "region": "NA",
+          "count": 25,
+          "slugSeo": "ferrari-of-central-florida-inc-",
+          "tags": []
+        },
+        {
+          "slug": "006230",
+          "name": "Ferrari Lake Forest",
+          "city": "Lake Bluff",
+          "region": "NA",
+          "count": 25,
+          "slugSeo": "ferrari-lake-forest",
+          "tags": []
+        },
+        {
+          "slug": "060632",
+          "name": "Modena Sport",
+          "city": "Balma (Toulouse)",
+          "region": "EU",
+          "count": 24,
+          "slugSeo": "modena-sport",
+          "tags": []
+        },
+        {
+          "slug": "060607",
+          "name": "Autohaus Blöchl GmbH",
+          "city": "Osterhofen",
+          "region": "EU",
+          "count": 24,
+          "slugSeo": "autohaus-bl-chl-gmbh",
+          "tags": [
+            "SERVICE_ONLY"
+          ]
+        },
+        {
+          "slug": "006035",
+          "name": "Ferrari of Vancouver",
+          "city": "Vancouver",
+          "region": "NA",
+          "count": 23,
+          "slugSeo": "ferrari-of-vancouver",
+          "tags": []
+        },
+        {
+          "slug": "064111",
+          "name": "Formula Automobile Norge",
+          "city": "Billingstad",
+          "region": "EU",
+          "count": 23,
+          "slugSeo": "formula-automobile-norge",
+          "tags": []
+        },
+        {
+          "slug": "006135",
+          "name": "Ferrari Beverly Hills",
+          "city": "Beverly Hills",
+          "region": "NA",
+          "count": 23,
+          "slugSeo": "ferrari-beverly-hills",
+          "tags": []
+        },
+        {
+          "slug": "006500",
+          "name": "Ferrari of New England",
+          "city": "Norwood",
+          "region": "NA",
+          "count": 23,
+          "slugSeo": "ferrari-of-new-england",
+          "tags": []
+        },
+        {
+          "slug": "006880",
+          "name": "Ferrari Silicon Valley",
+          "city": "Redwood City",
+          "region": "NA",
+          "count": 23,
+          "slugSeo": "ferrari-silicon-valley",
+          "tags": []
+        },
+        {
+          "slug": "063734",
+          "name": "LUEG Sportivo GmbH",
+          "city": "Meerbusch",
+          "region": "EU",
+          "count": 22,
+          "slugSeo": "lueg-sportivo-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "006095",
+          "name": "Scottsdale Ferrari",
+          "city": "Phoenix",
+          "region": "NA",
+          "count": 22,
+          "slugSeo": "scottsdale-ferrari",
+          "tags": []
+        },
+        {
+          "slug": "006260",
+          "name": "Ferrari of Ontario",
+          "city": "Vaughan",
+          "region": "NA",
+          "count": 21,
+          "slugSeo": "ferrari-of-ontario",
+          "tags": []
+        },
+        {
+          "slug": "006280",
+          "name": "Miller Motorcars Inc.",
+          "city": "Greenwich",
+          "region": "NA",
+          "count": 21,
+          "slugSeo": "miller-motorcars-inc-",
+          "tags": []
+        },
+        {
+          "slug": "064012",
+          "name": "Graypaul Birmingham",
+          "city": "Solihull",
+          "region": "EU",
+          "count": 20,
+          "slugSeo": "graypaul-birmingham",
+          "tags": []
+        },
+        {
+          "slug": "064125",
+          "name": "Scuderia Monte-Carlo",
+          "city": "Monaco",
+          "region": "EU",
+          "count": 19,
+          "slugSeo": "scuderia-monte-carlo",
+          "tags": []
+        },
+        {
+          "slug": "060642",
+          "name": "Jardine Colchester",
+          "city": "Colchester",
+          "region": "EU",
+          "count": 19,
+          "slugSeo": "jardine-colchester",
+          "tags": []
+        },
+        {
+          "slug": "064207",
+          "name": "Ferrari Richmond",
+          "city": "Richmond",
+          "region": "AP",
+          "count": 19,
+          "slugSeo": "ferrari-richmond",
+          "tags": []
+        },
+        {
+          "slug": "006301",
+          "name": "Ferrari of San Antonio",
+          "city": "San Antonio",
+          "region": "NA",
+          "count": 18,
+          "slugSeo": "ferrari-of-san-antonio",
+          "tags": []
+        },
+        {
+          "slug": "066185",
+          "name": "Foreign Cars Italia Charlotte",
+          "city": "Charlotte",
+          "region": "NA",
+          "count": 18,
+          "slugSeo": "foreign-cars-italia-charlotte",
+          "tags": []
+        },
+        {
+          "slug": "060643",
+          "name": "Stratstone Manchester",
+          "city": "Wilmslow",
+          "region": "EU",
+          "count": 18,
+          "slugSeo": "stratstone-manchester",
+          "tags": []
+        },
+        {
+          "slug": "006470",
+          "name": "Wide World Ferrari",
+          "city": "Spring Valley",
+          "region": "NA",
+          "count": 18,
+          "slugSeo": "wide-world-ferrari",
+          "tags": []
+        },
+        {
+          "slug": "006999",
+          "name": "Ferrari Philadelphia",
+          "city": "Bryn Mawr",
+          "region": "NA",
+          "count": 18,
+          "slugSeo": "ferrari-philadelphia",
+          "tags": []
+        },
+        {
+          "slug": "067964",
+          "name": "Luxury Collection Automobiles OY",
+          "city": "Lempaala",
+          "region": "EU",
+          "count": 17,
+          "slugSeo": "luxury-collection-automobiles-oy",
+          "tags": [
+            "SERVICE_ONLY"
+          ]
+        },
+        {
+          "slug": "064100",
+          "name": "Kroymans Automotive B.V.",
+          "city": "Hilversum",
+          "region": "EU",
+          "count": 17,
+          "slugSeo": "kroymans-automotive-b-v-",
+          "tags": []
+        },
+        {
+          "slug": "064127",
+          "name": "Alfred Gohm GmbH",
+          "city": "Böblingen",
+          "region": "EU",
+          "count": 17,
+          "slugSeo": "alfred-gohm-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "069977",
+          "name": "Blackbird Concessionaires Limited",
+          "city": "Hong Kong",
+          "region": "GC",
+          "count": 16,
+          "slugSeo": "blackbird-concessionaires-limited",
+          "tags": []
+        },
+        {
+          "slug": "006435",
+          "name": "Ferrari of Tampa Bay",
+          "city": "Palm Harbor",
+          "region": "NA",
+          "count": 16,
+          "slugSeo": "ferrari-of-tampa-bay",
+          "tags": []
+        },
+        {
+          "slug": "063795",
+          "name": "Modena Cars SA",
+          "city": "Plan-les-Ouates",
+          "region": "EU",
+          "count": 16,
+          "slugSeo": "modena-cars-sa",
+          "tags": []
+        },
+        {
+          "slug": "006159",
+          "name": "Cauley Ferrari of Detroit",
+          "city": "West Bloomfield",
+          "region": "NA",
+          "count": 16,
+          "slugSeo": "cauley-ferrari-of-detroit",
+          "tags": []
+        },
+        {
+          "slug": "063707",
+          "name": "Formula Automobile",
+          "city": "Lyngby",
+          "region": "EU",
+          "count": 16,
+          "slugSeo": "formula-automobile",
+          "tags": []
+        },
+        {
+          "slug": "064106",
+          "name": "Rosso Scuderia",
+          "city": "Minato-ku",
+          "region": "AP",
+          "count": 15,
+          "slugSeo": "rosso-scuderia",
+          "tags": []
+        },
+        {
+          "slug": "006055",
+          "name": "Ferrari of Seattle",
+          "city": "Bellevue",
+          "region": "NA",
+          "count": 15,
+          "slugSeo": "ferrari-of-seattle",
+          "tags": []
+        },
+        {
+          "slug": "067969",
+          "name": "SF Côte d’Azur Cannes",
+          "city": "Le Cannet",
+          "region": "EU",
+          "count": 15,
+          "slugSeo": "sf-c-te-d-azur-cannes",
+          "tags": []
+        },
+        {
+          "slug": "006720",
+          "name": "Ferrari of Rancho Mirage",
+          "city": "Rancho Mirage",
+          "region": "NA",
+          "count": 14,
+          "slugSeo": "ferrari-of-rancho-mirage",
+          "tags": []
+        },
+        {
+          "slug": "060610",
+          "name": "Autohaus A. Gohm GMBH",
+          "city": "Singen/Hwtl.",
+          "region": "EU",
+          "count": 14,
+          "slugSeo": "autohaus-a-gohm-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "006205",
+          "name": "Ferrari of Austin",
+          "city": "Austin",
+          "region": "NA",
+          "count": 14,
+          "slugSeo": "ferrari-of-austin",
+          "tags": []
+        },
+        {
+          "slug": "006185",
+          "name": "Foreign Cars Italia",
+          "city": "Greensboro",
+          "region": "NA",
+          "count": 14,
+          "slugSeo": "foreign-cars-italia",
+          "tags": []
+        },
+        {
+          "slug": "069967",
+          "name": "Francorchamps Motors Brussels S.A.",
+          "city": "B-1300 WAVRE",
+          "region": "EU",
+          "count": 14,
+          "slugSeo": "francorchamps-motors-brussels-s-a-",
+          "tags": []
+        },
+        {
+          "slug": "052806",
+          "name": "C.D.P. S.p.A.",
+          "city": "Ellera di Corciano",
+          "region": "EU",
+          "count": 14,
+          "slugSeo": "c-d-p-s-p-a-",
+          "tags": []
+        },
+        {
+          "slug": "062123",
+          "name": "Carrs Ferrari",
+          "city": "Exeter",
+          "region": "EU",
+          "count": 13,
+          "slugSeo": "carrs-ferrari",
+          "tags": []
+        },
+        {
+          "slug": "064212",
+          "name": "Ferrari Katowice",
+          "city": "Katowice",
+          "region": "EU",
+          "count": 13,
+          "slugSeo": "ferrari-katowice",
+          "tags": []
+        },
+        {
+          "slug": "067973",
+          "name": "Jardine Sevenoaks",
+          "city": "Sevenoaks",
+          "region": "EU",
+          "count": 13,
+          "slugSeo": "jardine-sevenoaks",
+          "tags": [
+            "SERVICE_ONLY"
+          ]
+        },
+        {
+          "slug": "064200",
+          "name": "Gauduel Sport Sas",
+          "city": "    Limonest ",
+          "region": "EU",
+          "count": 13,
+          "slugSeo": "gauduel-sport-sas",
+          "tags": []
+        },
+        {
+          "slug": "064206",
+          "name": "Ferrari Sydney",
+          "city": "Waterloo",
+          "region": "AP",
+          "count": 12,
+          "slugSeo": "ferrari-sydney",
+          "tags": []
+        },
+        {
+          "slug": "006996",
+          "name": "Ferrari of Houston",
+          "city": "Houston",
+          "region": "NA",
+          "count": 12,
+          "slugSeo": "ferrari-of-houston",
+          "tags": []
+        },
+        {
+          "slug": "006493",
+          "name": "Ferrari of Las Vegas",
+          "city": "Las Vegas",
+          "region": "NA",
+          "count": 12,
+          "slugSeo": "ferrari-of-las-vegas",
+          "tags": []
+        },
+        {
+          "slug": "006790",
+          "name": "Prancing Horse of Nashville",
+          "city": "Nashville",
+          "region": "NA",
+          "count": 12,
+          "slugSeo": "prancing-horse-of-nashville",
+          "tags": []
+        },
+        {
+          "slug": "057796",
+          "name": "Sa.Mo.Car S.p.A. Roma",
+          "city": "Roma",
+          "region": "EU",
+          "count": 11,
+          "slugSeo": "sa-mo-car-s-p-a-roma",
+          "tags": []
+        },
+        {
+          "slug": "062339",
+          "name": "Scuderia Praha a.s.",
+          "city": "Praha 17",
+          "region": "EU",
+          "count": 11,
+          "slugSeo": "scuderia-praha-a-s-",
+          "tags": []
+        },
+        {
+          "slug": "063793",
+          "name": "Munsterhuis Sportscars",
+          "city": "Hengelo (OV)",
+          "region": "EU",
+          "count": 11,
+          "slugSeo": "munsterhuis-sportscars",
+          "tags": []
+        },
+        {
+          "slug": "061220",
+          "name": "Eberlein Automobile GmbH",
+          "city": "Kassel",
+          "region": "EU",
+          "count": 11,
+          "slugSeo": "eberlein-automobile-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "064108",
+          "name": "Ital Auto Pte Ltd",
+          "city": "Singapore",
+          "region": "AP",
+          "count": 11,
+          "slugSeo": "ital-auto-pte-ltd",
+          "tags": []
+        },
+        {
+          "slug": "006317",
+          "name": "Ferrari Westlake",
+          "city": "Thousand Oaks",
+          "region": "NA",
+          "count": 11,
+          "slugSeo": "ferrari-westlake",
+          "tags": []
+        },
+        {
+          "slug": "063715",
+          "name": "Garage Niki Hasler AG",
+          "city": "Basel",
+          "region": "EU",
+          "count": 11,
+          "slugSeo": "garage-niki-hasler-ag",
+          "tags": []
+        },
+        {
+          "slug": "006370",
+          "name": "Ron Tonkin Gran Turismo",
+          "city": "Wilsonville",
+          "region": "NA",
+          "count": 11,
+          "slugSeo": "ron-tonkin-gran-turismo",
+          "tags": []
+        },
+        {
+          "slug": "069970",
+          "name": "Scuderia Gohm",
+          "city": "Vösendorf",
+          "region": "EU",
+          "count": 10,
+          "slugSeo": "scuderia-gohm",
+          "tags": []
+        },
+        {
+          "slug": "063750",
+          "name": "Garage Zenith Lausanne",
+          "city": "Lutry",
+          "region": "EU",
+          "count": 9,
+          "slugSeo": "garage-zenith-lausanne",
+          "tags": []
+        },
+        {
+          "slug": "064240",
+          "name": "Scuderia South Africa Cape Town",
+          "city": "Cape Town",
+          "region": "MEA",
+          "count": 9,
+          "slugSeo": "scuderia-south-africa-cape-town",
+          "tags": []
+        },
+        {
+          "slug": "059875",
+          "name": "Ineco Auto S.p.A. Verona",
+          "city": "Verona",
+          "region": "EU",
+          "count": 9,
+          "slugSeo": "ineco-auto-s-p-a-verona",
+          "tags": []
+        },
+        {
+          "slug": "064011",
+          "name": "Cavallino Motors Co. Ltd",
+          "city": "Bangkok, Thailand",
+          "region": "AP",
+          "count": 9,
+          "slugSeo": "cavallino-motors-co-ltd",
+          "tags": []
+        },
+        {
+          "slug": "006258",
+          "name": "Ferrari of Denver",
+          "city": "Highlands Ranch",
+          "region": "NA",
+          "count": 9,
+          "slugSeo": "ferrari-of-denver",
+          "tags": []
+        },
+        {
+          "slug": "006770",
+          "name": "Twin Cities Performance",
+          "city": "Golden Valley",
+          "region": "NA",
+          "count": 9,
+          "slugSeo": "twin-cities-performance",
+          "tags": []
+        },
+        {
+          "slug": "006780",
+          "name": "Cavallino Rosso St Louis",
+          "city": "St Louis",
+          "region": "NA",
+          "count": 9,
+          "slugSeo": "cavallino-rosso-st-louis",
+          "tags": []
+        },
+        {
+          "slug": "064164",
+          "name": "Palau",
+          "city": "Mérignac",
+          "region": "EU",
+          "count": 9,
+          "slugSeo": "palau",
+          "tags": []
+        },
+        {
+          "slug": "060697",
+          "name": "Garage Zenith Sion",
+          "city": "Sion",
+          "region": "EU",
+          "count": 8,
+          "slugSeo": "garage-zenith-sion",
+          "tags": []
+        },
+        {
+          "slug": "060579",
+          "name": "Monza NV",
+          "city": "Sint-Martens-Latem",
+          "region": "EU",
+          "count": 8,
+          "slugSeo": "monza-nv",
+          "tags": []
+        },
+        {
+          "slug": "060512",
+          "name": "Al Tayer Motors L.L.C",
+          "city": "Dubai",
+          "region": "MEA",
+          "count": 8,
+          "slugSeo": "al-tayer-motors-l-l-c",
+          "tags": []
+        },
+        {
+          "slug": "006391",
+          "name": "Ferrari of Salt Lake City",
+          "city": "Salt Lake City",
+          "region": "NA",
+          "count": 8,
+          "slugSeo": "ferrari-of-salt-lake-city",
+          "tags": []
+        },
+        {
+          "slug": "064217",
+          "name": "SF Grand Est Mulhouse ",
+          "city": "Sausheim",
+          "region": "EU",
+          "count": 8,
+          "slugSeo": "sf-grand-est-mulhouse-",
+          "tags": []
+        },
+        {
+          "slug": "063815",
+          "name": "Graypaul Nottingham",
+          "city": "Nottingham",
+          "region": "EU",
+          "count": 7,
+          "slugSeo": "graypaul-nottingham",
+          "tags": []
+        },
+        {
+          "slug": "064236",
+          "name": "Ferrari Brisbane",
+          "city": "Newstead",
+          "region": "AP",
+          "count": 7,
+          "slugSeo": "ferrari-brisbane",
+          "tags": []
+        },
+        {
+          "slug": "069964",
+          "name": "Moll Sportwagen Hannover GmbH",
+          "city": "Hannover",
+          "region": "EU",
+          "count": 7,
+          "slugSeo": "moll-sportwagen-hannover-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "063685",
+          "name": "Cornes Nagoya Showroom",
+          "city": "Chikusaku Nagoya-shi",
+          "region": "AP",
+          "count": 7,
+          "slugSeo": "cornes-nagoya-showroom",
+          "tags": []
+        },
+        {
+          "slug": "067974",
+          "name": "Ferrari Adelaide",
+          "city": "Adelaide",
+          "region": "AP",
+          "count": 7,
+          "slugSeo": "ferrari-adelaide",
+          "tags": []
+        },
+        {
+          "slug": "065284",
+          "name": "Graypaul Edinburgh",
+          "city": "Edinburgh",
+          "region": "EU",
+          "count": 7,
+          "slugSeo": "graypaul-edinburgh",
+          "tags": []
+        },
+        {
+          "slug": "060934",
+          "name": "F.M.A. NV",
+          "city": "Wijnegem",
+          "region": "EU",
+          "count": 7,
+          "slugSeo": "f-m-a-nv",
+          "tags": []
+        },
+        {
+          "slug": "064241",
+          "name": "Scuderia South Africa Johannesburg",
+          "city": "Bryanston",
+          "region": "MEA",
+          "count": 6,
+          "slugSeo": "scuderia-south-africa-johannesburg",
+          "tags": []
+        },
+        {
+          "slug": "063755",
+          "name": "Ferrari Budapest Showroom",
+          "city": "Budapest",
+          "region": "EU",
+          "count": 6,
+          "slugSeo": "ferrari-budapest-showroom",
+          "tags": []
+        },
+        {
+          "slug": "069963",
+          "name": "Auto Speciale",
+          "city": "Shizuoka-shi",
+          "region": "AP",
+          "count": 6,
+          "slugSeo": "auto-speciale",
+          "tags": [
+            "SERVICE_ONLY"
+          ]
+        },
+        {
+          "slug": "067962",
+          "name": "Maranello Motors GmbH",
+          "city": "Köln",
+          "region": "EU",
+          "count": 6,
+          "slugSeo": "maranello-motors-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "061489",
+          "name": "Cornes Shiba Showroom",
+          "city": "Minato-ku",
+          "region": "AP",
+          "count": 6,
+          "slugSeo": "cornes-shiba-showroom",
+          "tags": []
+        },
+        {
+          "slug": "067976",
+          "name": "Charles Hurst",
+          "city": "Belfast",
+          "region": "EU",
+          "count": 6,
+          "slugSeo": "charles-hurst",
+          "tags": []
+        },
+        {
+          "slug": "064114",
+          "name": "Mertel Italo Cars Nürnberg GmbH",
+          "city": "Nürnberg",
+          "region": "EU",
+          "count": 6,
+          "slugSeo": "mertel-italo-cars-n-rnberg-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "064219",
+          "name": "Nicole Competizione",
+          "city": "Yokohama",
+          "region": "AP",
+          "count": 6,
+          "slugSeo": "nicole-competizione",
+          "tags": []
+        },
+        {
+          "slug": "067975",
+          "name": "JCT600 Newcastle",
+          "city": "Newcastle",
+          "region": "EU",
+          "count": 6,
+          "slugSeo": "jct600-newcastle",
+          "tags": [
+            "SERVICE_ONLY"
+          ]
+        },
+        {
+          "slug": "063748",
+          "name": "Penske Sportwagen Hamburg GmbH",
+          "city": "Hamburg",
+          "region": "EU",
+          "count": 5,
+          "slugSeo": "penske-sportwagen-hamburg-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "064123",
+          "name": "Mototrend",
+          "city": "Latsia Nicosia",
+          "region": "EU",
+          "count": 5,
+          "slugSeo": "mototrend",
+          "tags": [
+            "SERVICE_ONLY"
+          ]
+        },
+        {
+          "slug": "066125",
+          "name": "Ferrari of Miami",
+          "city": "Miami",
+          "region": "NA",
+          "count": 5,
+          "slugSeo": "ferrari-of-miami",
+          "tags": []
+        },
+        {
+          "slug": "067983",
+          "name": "Auto Italia EAD",
+          "city": "Sofia",
+          "region": "EU",
+          "count": 5,
+          "slugSeo": "auto-italia-ead",
+          "tags": [
+            "SERVICE_ONLY"
+          ]
+        },
+        {
+          "slug": "059881",
+          "name": "Ineco Auto SpA Modena",
+          "city": "Modena",
+          "region": "EU",
+          "count": 5,
+          "slugSeo": "ineco-auto-spa-modena",
+          "tags": []
+        },
+        {
+          "slug": "063742",
+          "name": "Euro Motors",
+          "city": "Sitra",
+          "region": "MEA",
+          "count": 5,
+          "slugSeo": "euro-motors",
+          "tags": []
+        },
+        {
+          "slug": "051369",
+          "name": "Radicci Automobili S.p.A. Bari",
+          "city": "Bari",
+          "region": "EU",
+          "count": 5,
+          "slugSeo": "radicci-automobili-s-p-a-bari",
+          "tags": []
+        },
+        {
+          "slug": "069960",
+          "name": "Ferrari Warszawa",
+          "city": "Warszawa",
+          "region": "EU",
+          "count": 5,
+          "slugSeo": "ferrari-warszawa",
+          "tags": []
+        },
+        {
+          "slug": "061819",
+          "name": "C. De Salamanca",
+          "city": "San Pedro de Alcántara",
+          "region": "EU",
+          "count": 4,
+          "slugSeo": "c-de-salamanca",
+          "tags": []
+        },
+        {
+          "slug": "064204",
+          "name": "Continental Cars Ferrari",
+          "city": "Epsom",
+          "region": "AP",
+          "count": 4,
+          "slugSeo": "continental-cars-ferrari",
+          "tags": []
+        },
+        {
+          "slug": "064152",
+          "name": "Cars Gallery",
+          "city": "Barcelona",
+          "region": "EU",
+          "count": 4,
+          "slugSeo": "cars-gallery",
+          "tags": []
+        },
+        {
+          "slug": "063843",
+          "name": "Kuwait Automobile & Trading Co.",
+          "city": "Safat",
+          "region": "MEA",
+          "count": 4,
+          "slugSeo": "kuwait-automobile-trading-co-",
+          "tags": []
+        },
+        {
+          "slug": "052222",
+          "name": "Rossocorsa S.r.l. Milano",
+          "city": "Milano",
+          "region": "EU",
+          "count": 4,
+          "slugSeo": "rossocorsa-s-r-l-milano",
+          "tags": []
+        },
+        {
+          "slug": "064242",
+          "name": "Scuderia South Africa Durban",
+          "city": "Umhlanga Ridge",
+          "region": "MEA",
+          "count": 4,
+          "slugSeo": "scuderia-south-africa-durban",
+          "tags": []
+        },
+        {
+          "slug": "064109",
+          "name": "Ideal",
+          "city": "Sendai-shi",
+          "region": "AP",
+          "count": 4,
+          "slugSeo": "ideal",
+          "tags": [
+            "SERVICE_ONLY"
+          ]
+        },
+        {
+          "slug": "061949",
+          "name": "Autoropa",
+          "city": "Arlov (Malmo)",
+          "region": "EU",
+          "count": 4,
+          "slugSeo": "autoropa",
+          "tags": []
+        },
+        {
+          "slug": "006125",
+          "name": "The Collection",
+          "city": "Coral Gables",
+          "region": "NA",
+          "count": 4,
+          "slugSeo": "the-collection",
+          "tags": []
+        },
+        {
+          "slug": "070657",
+          "name": "Kessel Auto Zug AG",
+          "city": "Zug",
+          "region": "EU",
+          "count": 4,
+          "slugSeo": "kessel-auto-zug-ag",
+          "tags": []
+        },
+        {
+          "slug": "067978",
+          "name": "PT Eurokars Prima Utama",
+          "city": "Central Jakarta",
+          "region": "AP",
+          "count": 4,
+          "slugSeo": "pt-eurokars-prima-utama",
+          "tags": []
+        },
+        {
+          "slug": "064158",
+          "name": "Fujian Denker Motor Sales and Services Limited",
+          "city": "Xiamen",
+          "region": "GC",
+          "count": 4,
+          "slugSeo": "fujian-denker-motor-sales-and-services-limited",
+          "tags": []
+        },
+        {
+          "slug": "111868",
+          "name": "Gran Testa Nagano",
+          "city": "Nagano",
+          "region": "AP",
+          "count": 3,
+          "slugSeo": "gran-testa-nagano",
+          "tags": []
+        },
+        {
+          "slug": "084086",
+          "name": "M-Auto Italia",
+          "city": "Minami-ku Hiroshima-shi",
+          "region": "AP",
+          "count": 3,
+          "slugSeo": "m-auto-italia",
+          "tags": []
+        },
+        {
+          "slug": "063686",
+          "name": "Cornes Osaka Showroom",
+          "city": "Chuo-ku, Osaka-shi",
+          "region": "AP",
+          "count": 3,
+          "slugSeo": "cornes-osaka-showroom",
+          "tags": []
+        },
+        {
+          "slug": "063733",
+          "name": "Thomas Sportwagen GmbH",
+          "city": "Radebeul/Dresden",
+          "region": "EU",
+          "count": 3,
+          "slugSeo": "thomas-sportwagen-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "063884",
+          "name": "Modena Motori Taiwan Co., Ltd.",
+          "city": "Taipei City",
+          "region": "GC",
+          "count": 3,
+          "slugSeo": "modena-motori-taiwan-co-ltd-",
+          "tags": []
+        },
+        {
+          "slug": "069978",
+          "name": "Francorchamps Motors Luxembourg",
+          "city": "Windhof",
+          "region": "EU",
+          "count": 3,
+          "slugSeo": "francorchamps-motors-luxembourg",
+          "tags": []
+        },
+        {
+          "slug": "067960",
+          "name": "Ferrari Gold Coast",
+          "city": "Southport",
+          "region": "AP",
+          "count": 3,
+          "slugSeo": "ferrari-gold-coast",
+          "tags": []
+        },
+        {
+          "slug": "006345",
+          "name": "Midwestern Auto Group",
+          "city": "Dublin",
+          "region": "NA",
+          "count": 3,
+          "slugSeo": "midwestern-auto-group",
+          "tags": []
+        },
+        {
+          "slug": "006215",
+          "name": "Ferrari of Hawaii",
+          "city": "Honolulu",
+          "region": "NA",
+          "count": 3,
+          "slugSeo": "ferrari-of-hawaii",
+          "tags": []
+        },
+        {
+          "slug": "067993",
+          "name": "Prestige Shenyang Automobile Sales Co.,Ltd Quanyun",
+          "city": "Shenyang",
+          "region": "GC",
+          "count": 2,
+          "slugSeo": "prestige-shenyang-automobile-sales-co-ltd-quanyun",
+          "tags": []
+        },
+        {
+          "slug": "063989",
+          "name": "Naza Italia Sdn. Bhd.",
+          "city": "Petaling Jaya",
+          "region": "AP",
+          "count": 2,
+          "slugSeo": "naza-italia-sdn-bhd-",
+          "tags": []
+        },
+        {
+          "slug": "063799",
+          "name": "Fer Mas Oto Ticaret A.S.",
+          "city": "Kurucesme",
+          "region": "EU",
+          "count": 2,
+          "slugSeo": "fer-mas-oto-ticaret-a-s-",
+          "tags": []
+        },
+        {
+          "slug": "064208",
+          "name": "Riller & Schnauck GmbH",
+          "city": "Berlin",
+          "region": "EU",
+          "count": 2,
+          "slugSeo": "riller-schnauck-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "060747",
+          "name": "FBO  Motor Sports",
+          "city": "Lisboa",
+          "region": "EU",
+          "count": 2,
+          "slugSeo": "fbo-motor-sports",
+          "tags": []
+        },
+        {
+          "slug": "064115",
+          "name": "Autohaus Saggio GmbH",
+          "city": "München",
+          "region": "EU",
+          "count": 2,
+          "slugSeo": "autohaus-saggio-gmbh",
+          "tags": []
+        },
+        {
+          "slug": "063973",
+          "name": "Guangdong Denker Motor Service Co. Ltd",
+          "city": "Guangzhou",
+          "region": "GC",
+          "count": 2,
+          "slugSeo": "guangdong-denker-motor-service-co-ltd",
+          "tags": []
+        },
+        {
+          "slug": "006136",
+          "name": "Ferrari South Bay",
+          "city": "Torrance",
+          "region": "NA",
+          "count": 2,
+          "slugSeo": "ferrari-south-bay",
+          "tags": []
+        },
+        {
+          "slug": "067981",
+          "name": "Qingdao Hengjun Automobile Sales and Service Co. LTD",
+          "city": "Qingdao",
+          "region": "GC",
+          "count": 1,
+          "slugSeo": "qingdao-hengjun-automobile-sales-and-service-co-ltd",
+          "tags": []
+        },
+        {
+          "slug": "063653",
+          "name": "Fast Auto Technic - Jeddah",
+          "city": "Jeddah",
+          "region": "MEA",
+          "count": 1,
+          "slugSeo": "fast-auto-technic-jeddah",
+          "tags": []
+        },
+        {
+          "slug": "064232",
+          "name": "Anhui Hongyue Hongchao Automobile",
+          "city": "Hefei",
+          "region": "GC",
+          "count": 1,
+          "slugSeo": "anhui-hongyue-hongchao-automobile",
+          "tags": []
+        },
+        {
+          "slug": "067970",
+          "name": "Mediterranean Car Agency Ltd",
+          "city": "Petach Tikva",
+          "region": "MEA",
+          "count": 1,
+          "slugSeo": "mediterranean-car-agency-ltd",
+          "tags": []
+        },
+        {
+          "slug": "067986",
+          "name": "Wuhan Jundong Cars Sales & Service Ltd.",
+          "city": "Wuhan",
+          "region": "GC",
+          "count": 1,
+          "slugSeo": "wuhan-jundong-cars-sales-service-ltd-",
+          "tags": []
+        },
+        {
+          "slug": "069827",
+          "name": "Shenzhen Denker Motors Service Co., Ltd",
+          "city": "Shenzhen",
+          "region": "GC",
+          "count": 1,
+          "slugSeo": "shenzhen-denker-motors-service-co-ltd",
+          "tags": []
+        },
+        {
+          "slug": "064224",
+          "name": "Forza Rossa",
+          "city": "Otopeni, Jud. Ilfov",
+          "region": "EU",
+          "count": 1,
+          "slugSeo": "forza-rossa",
+          "tags": []
+        },
+        {
+          "slug": "064211",
+          "name": "Univers Motors Premium",
+          "city": "Casablanca",
+          "region": "MEA",
+          "count": 1,
+          "slugSeo": "univers-motors-premium",
+          "tags": []
+        },
+        {
+          "slug": "067961",
+          "name": "Ferrari North Shore",
+          "city": "Artarmon",
+          "region": "AP",
+          "count": 1,
+          "slugSeo": "ferrari-north-shore",
+          "tags": []
+        },
+        {
+          "slug": "064160",
+          "name": "Ital Automotive (Shanghai) Co., Ltd",
+          "city": "Shanghai",
+          "region": "GC",
+          "count": 1,
+          "slugSeo": "ital-automotive-shanghai-co-ltd",
+          "tags": []
+        },
+        {
+          "slug": "064230",
+          "name": "Auto Cavallino",
+          "city": "Higashinada-ku Kobe-shi",
+          "region": "AP",
+          "count": 1,
+          "slugSeo": "auto-cavallino",
+          "tags": []
+        },
+        {
+          "slug": "063880",
+          "name": "Hangzhou Junyi Cars Sales Services Ltd",
+          "city": "Hangzhou",
+          "region": "GC",
+          "count": 1,
+          "slugSeo": "hangzhou-junyi-cars-sales-services-ltd",
+          "tags": []
+        },
+        {
+          "slug": "063972",
+          "name": "Santogal Automóviles, S.L.U.",
+          "city": "Madrid",
+          "region": "EU",
+          "count": 1,
+          "slugSeo": "santogal-autom-viles-s-l-u-",
+          "tags": []
+        },
+        {
+          "slug": "063904",
+          "name": "Beijing Jundong Cars Sales Services Limited",
+          "city": "Beijing",
+          "region": "GC",
+          "count": 1,
+          "slugSeo": "beijing-jundong-cars-sales-services-limited",
+          "tags": []
+        }
+      ]
+    },
+    "models": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": false,
+        "uiOrder": 3,
+        "order": 5,
+        "param": "m",
+        "inUrl": true,
+        "type": "checkbox",
+        "isVisible": true
+      },
+      "options": [
+        {
+          "slug": "101A",
+          "name": "412",
+          "count": 2,
+          "slugSeo": "412"
+        },
+        {
+          "slug": "101B",
+          "name": "400",
+          "count": 4,
+          "slugSeo": "400"
+        },
+        {
+          "slug": "102A",
+          "name": "512 BB",
+          "count": 5,
+          "slugSeo": "512-bb"
+        },
+        {
+          "slug": "106A",
+          "name": "328 GTB",
+          "count": 1,
+          "slugSeo": "328-gtb"
+        },
+        {
+          "slug": "106A2",
+          "name": "208 GTB",
+          "count": 2,
+          "slugSeo": "208-gtb"
+        },
+        {
+          "slug": "106A3",
+          "name": "308 GTB",
+          "count": 6,
+          "slugSeo": "308-gtb"
+        },
+        {
+          "slug": "106B2",
+          "name": "208 GTS Turbo",
+          "count": 1,
+          "slugSeo": "208-gts-turbo"
+        },
+        {
+          "slug": "106B4",
+          "name": "308 GTS quattrovalvole",
+          "count": 2,
+          "slugSeo": "308-gts-quattrovalvole"
+        },
+        {
+          "slug": "106B5",
+          "name": "308 GTSi",
+          "count": 1,
+          "slugSeo": "308-gtsi"
+        },
+        {
+          "slug": "106B6",
+          "name": "328 GTS",
+          "count": 12,
+          "slugSeo": "328-gts"
+        },
+        {
+          "slug": "108B",
+          "name": "Mondial Cabriolet/T Cabriolet",
+          "count": 2,
+          "slugSeo": "mondial-cabriolet-t-cabriolet"
+        },
+        {
+          "slug": "110AB",
+          "name": "Testarossa",
+          "count": 5,
+          "slugSeo": "testarossa"
+        },
+        {
+          "slug": "110HB",
+          "name": "512 TR",
+          "count": 3,
+          "slugSeo": "512-tr"
+        },
+        {
+          "slug": "116A",
+          "name": "456 GT",
+          "count": 1,
+          "slugSeo": "456-gt"
+        },
+        {
+          "slug": "116C",
+          "name": "456M GT",
+          "count": 4,
+          "slugSeo": "456m-gt"
+        },
+        {
+          "slug": "116D",
+          "name": "456M GTA",
+          "count": 2,
+          "slugSeo": "456m-gta"
+        },
+        {
+          "slug": "119AB",
+          "name": "348 TB/TS",
+          "count": 8,
+          "slugSeo": "348-tb-ts"
+        },
+        {
+          "slug": "119AS",
+          "name": "348 Spider",
+          "count": 2,
+          "slugSeo": "348-spider"
+        },
+        {
+          "slug": "120AB",
+          "name": "F40",
+          "count": 3,
+          "slugSeo": "f40"
+        },
+        {
+          "slug": "129A",
+          "name": "F355 Berlinetta",
+          "count": 2,
+          "slugSeo": "f355-berlinetta"
+        },
+        {
+          "slug": "129AF",
+          "name": "F355 GTS",
+          "count": 3,
+          "slugSeo": "f355-gts"
+        },
+        {
+          "slug": "129S",
+          "name": "F355 Spider",
+          "count": 4,
+          "slugSeo": "f355-spider"
+        },
+        {
+          "slug": "129SF",
+          "name": "F355 Spider",
+          "count": 4,
+          "slugSeo": "f355-spider"
+        },
+        {
+          "slug": "130AB",
+          "name": "F50",
+          "count": 1,
+          "slugSeo": "f50"
+        },
+        {
+          "slug": "131A",
+          "name": "360 Modena",
+          "count": 10,
+          "slugSeo": "360-modena"
+        },
+        {
+          "slug": "131C",
+          "name": "360 Challenge",
+          "count": 1,
+          "slugSeo": "360-challenge"
+        },
+        {
+          "slug": "131CS",
+          "name": "360 Challenge Stradale",
+          "count": 12,
+          "slugSeo": "360-challenge-stradale"
+        },
+        {
+          "slug": "131S",
+          "name": "360 Spider",
+          "count": 21,
+          "slugSeo": "360-spider"
+        },
+        {
+          "slug": "133A",
+          "name": "550 Maranello",
+          "count": 9,
+          "slugSeo": "550-maranello"
+        },
+        {
+          "slug": "133B",
+          "name": "550 Barchetta Pininfarina",
+          "count": 2,
+          "slugSeo": "550-barchetta-pininfarina"
+        },
+        {
+          "slug": "133C",
+          "name": "575M Maranello",
+          "count": 16,
+          "slugSeo": "575m-maranello"
+        },
+        {
+          "slug": "133F",
+          "name": "575 Superamerica",
+          "count": 8,
+          "slugSeo": "575-superamerica"
+        },
+        {
+          "slug": "137",
+          "name": "612 Scaglietti",
+          "count": 17,
+          "slugSeo": "612-scaglietti"
+        },
+        {
+          "slug": "142C",
+          "name": "458 Italia",
+          "count": 58,
+          "slugSeo": "458-italia"
+        },
+        {
+          "slug": "142CH",
+          "name": "458 Challenge",
+          "count": 2,
+          "slugSeo": "458-challenge"
+        },
+        {
+          "slug": "142EB",
+          "name": "458 Speciale",
+          "count": 33,
+          "slugSeo": "458-speciale"
+        },
+        {
+          "slug": "142M",
+          "name": "488 GTB",
+          "count": 139,
+          "slugSeo": "488-gtb"
+        },
+        {
+          "slug": "142MCH",
+          "name": "488 Challenge",
+          "count": 8,
+          "slugSeo": "488-challenge"
+        },
+        {
+          "slug": "142MS",
+          "name": "488 Spider",
+          "count": 148,
+          "slugSeo": "488-spider"
+        },
+        {
+          "slug": "142MSA",
+          "name": "488 Pista Spider",
+          "count": 29,
+          "slugSeo": "488-pista-spider"
+        },
+        {
+          "slug": "142MVS",
+          "name": "488 Pista",
+          "count": 66,
+          "slugSeo": "488-pista"
+        },
+        {
+          "slug": "142SP",
+          "name": "458 Spider",
+          "count": 62,
+          "slugSeo": "458-spider"
+        },
+        {
+          "slug": "142SSP",
+          "name": "458 Speciale A",
+          "count": 7,
+          "slugSeo": "458-speciale-a"
+        },
+        {
+          "slug": "149M",
+          "name": "Ferrari California T",
+          "count": 80,
+          "slugSeo": "ferrari-california-t"
+        },
+        {
+          "slug": "149SP",
+          "name": "Ferrari California",
+          "count": 59,
+          "slugSeo": "ferrari-california"
+        },
+        {
+          "slug": "330GT",
+          "name": "330 GT 2+2",
+          "count": 1,
+          "slugSeo": "330-gt-2+2"
+        },
+        {
+          "slug": "330GTC",
+          "name": "330 GTC",
+          "count": 1,
+          "slugSeo": "330-gtc"
+        },
+        {
+          "slug": "365GT",
+          "name": "365 GT 2+2",
+          "count": 1,
+          "slugSeo": "365-gt-2+2"
+        },
+        {
+          "slug": "365GTB4",
+          "name": "365 GTB4",
+          "count": 1,
+          "slugSeo": "365-gtb4"
+        },
+        {
+          "slug": "430C",
+          "name": "F430",
+          "count": 21,
+          "slugSeo": "f430"
+        },
+        {
+          "slug": "430SC",
+          "name": "430 Scuderia",
+          "count": 23,
+          "slugSeo": "430-scuderia"
+        },
+        {
+          "slug": "430SP",
+          "name": "F430 Spider",
+          "count": 34,
+          "slugSeo": "f430-spider"
+        },
+        {
+          "slug": "430SS",
+          "name": "Scuderia Spider 16M",
+          "count": 9,
+          "slugSeo": "scuderia-spider-16m"
+        },
+        {
+          "slug": "599GTB",
+          "name": "599 GTB Fiorano",
+          "count": 31,
+          "slugSeo": "599-gtb-fiorano"
+        },
+        {
+          "slug": "599GTO",
+          "name": "599 GTO",
+          "count": 7,
+          "slugSeo": "599-gto"
+        },
+        {
+          "slug": "612 SC 1T1",
+          "name": "612 Scaglietti One To One",
+          "count": 2,
+          "slugSeo": "612-scaglietti-one-to-one"
+        },
+        {
+          "slug": "612 SCA 60",
+          "name": "612 Scaglietti Sessanta",
+          "count": 2,
+          "slugSeo": "612-scaglietti-sessanta"
+        },
+        {
+          "slug": "F141AD",
+          "name": "SA Aperta",
+          "count": 3,
+          "slugSeo": "sa-aperta"
+        },
+        {
+          "slug": "F150",
+          "name": "LaFerrari",
+          "count": 3,
+          "slugSeo": "laferrari"
+        },
+        {
+          "slug": "F1515",
+          "name": "FF",
+          "count": 30,
+          "slugSeo": "ff"
+        },
+        {
+          "slug": "F151M",
+          "name": "GTC4Lusso",
+          "count": 44,
+          "slugSeo": "gtc4lusso"
+        },
+        {
+          "slug": "F151MV8",
+          "name": "GTC4Lusso T",
+          "count": 30,
+          "slugSeo": "gtc4lusso-t"
+        },
+        {
+          "slug": "F152",
+          "name": "F12berlinetta",
+          "count": 37,
+          "slugSeo": "f12berlinetta"
+        },
+        {
+          "slug": "F152M",
+          "name": "812 Superfast",
+          "count": 110,
+          "slugSeo": "812-superfast"
+        },
+        {
+          "slug": "F152MS",
+          "name": "812 GTS",
+          "count": 76,
+          "slugSeo": "812-gts"
+        },
+        {
+          "slug": "F152VS",
+          "name": "F12tdf",
+          "count": 11,
+          "slugSeo": "f12tdf"
+        },
+        {
+          "slug": "F164",
+          "name": "Ferrari Portofino",
+          "count": 161,
+          "slugSeo": "ferrari-portofino"
+        },
+        {
+          "slug": "F164M",
+          "name": "Ferrari Portofino M",
+          "count": 36,
+          "slugSeo": "ferrari-portofino-m"
+        },
+        {
+          "slug": "F169",
+          "name": "Ferrari Roma",
+          "count": 166,
+          "slugSeo": "ferrari-roma"
+        },
+        {
+          "slug": "F171",
+          "name": "296 GTB",
+          "count": 2,
+          "slugSeo": "296-gtb"
+        },
+        {
+          "slug": "F173",
+          "name": "SF90 Stradale",
+          "count": 143,
+          "slugSeo": "sf90-stradale"
+        },
+        {
+          "slug": "F173SP",
+          "name": "SF90 Spider",
+          "count": 22,
+          "slugSeo": "sf90-spider"
+        },
+        {
+          "slug": "F8 CP",
+          "name": "F8 Tributo",
+          "count": 107,
+          "slugSeo": "f8-tributo"
+        },
+        {
+          "slug": "F8 SP",
+          "name": "F8 Spider",
+          "count": 78,
+          "slugSeo": "f8-spider"
+        }
+      ]
+    },
+    "year": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 4,
+        "order": 6,
+        "param": "y",
+        "inurl": false,
+        "type": "range_single",
+        "isVisible": true
+      },
+      "options": {
+        "max": 2022,
+        "min": 0
+      }
+    },
+    "price": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 5,
+        "order": 7,
+        "param": "p",
+        "inurl": false,
+        "type": "range_single",
+        "isVisible": true
+      },
+      "options": {
+        "max": 5452817,
+        "min": 0,
+        "unit": "EUR"
+      }
+    },
+    "odometer": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 6,
+        "order": 8,
+        "param": "o",
+        "inurl": false,
+        "type": "range_single",
+        "isVisible": true
+      },
+      "options": {
+        "max": 132137,
+        "min": 0,
+        "unit": "km"
+      }
+    },
+    "familyExteriorColors": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": false,
+        "uiOrder": 7,
+        "order": 9,
+        "param": "e",
+        "inUrl": false,
+        "type": "checkbox",
+        "isVisible": true
+      },
+      "options": [
+        {
+          "slug": "03",
+          "name": "RED",
+          "count": 657,
+          "color": ""
+        },
+        {
+          "slug": "06",
+          "name": "GREY",
+          "count": 455,
+          "color": ""
+        },
+        {
+          "slug": "02",
+          "name": "BLACK",
+          "count": 343,
+          "color": ""
+        },
+        {
+          "slug": "01",
+          "name": "WHITE",
+          "count": 202,
+          "color": ""
+        },
+        {
+          "slug": "04",
+          "name": "BLUE",
+          "count": 185,
+          "color": ""
+        },
+        {
+          "slug": "",
+          "name": "",
+          "count": 126,
+          "color": ""
+        },
+        {
+          "slug": "05",
+          "name": "YELLOW",
+          "count": 78,
+          "color": ""
+        },
+        {
+          "slug": "07",
+          "name": "GREEN",
+          "count": 12,
+          "color": ""
+        },
+        {
+          "slug": "09",
+          "name": "BROWN",
+          "count": 2,
+          "color": ""
+        }
+      ]
+    },
+    "familyTrimColors": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": false,
+        "uiOrder": 8,
+        "order": 10,
+        "param": "t",
+        "inUrl": false,
+        "type": "checkbox",
+        "isVisible": true
+      },
+      "options": [
+        {
+          "slug": "02",
+          "name": "BLACK",
+          "count": 993,
+          "color": ""
+        },
+        {
+          "slug": "09",
+          "name": "BROWN",
+          "count": 463,
+          "color": ""
+        },
+        {
+          "slug": "03",
+          "name": "RED",
+          "count": 202,
+          "color": ""
+        },
+        {
+          "slug": "05",
+          "name": "YELLOW",
+          "count": 112,
+          "color": ""
+        },
+        {
+          "slug": "04",
+          "name": "BLUE",
+          "count": 100,
+          "color": ""
+        },
+        {
+          "slug": "06",
+          "name": "GREY",
+          "count": 94,
+          "color": ""
+        },
+        {
+          "slug": "",
+          "name": "",
+          "count": 92,
+          "color": ""
+        },
+        {
+          "slug": "01",
+          "name": "WHITE",
+          "count": 3,
+          "color": ""
+        },
+        {
+          "slug": "08",
+          "name": "ORANGE",
+          "count": 1,
+          "color": ""
+        }
+      ]
+    },
+    "certifications": {
+      "details": {
+        "isQuickFilter": true,
+        "canSelectUpdate": true,
+        "uiOrder": 9,
+        "order": 11,
+        "param": "i",
+        "inUrl": false,
+        "type": "checkbox",
+        "isVisible": true
+      },
+      "options": [
+        {
+          "ferrariApproved": true,
+          "count": 1150,
+          "name": "Ferrari Approved",
+          "slug": "ferrari-approved",
+          "url": {
+            "thronId": "66545a70-ff5e-41d5-ae59-6e2265eceb2d"
+          }
+        },
+        {
+          "carfax": true,
+          "count": 647,
+          "name": "Carfax",
+          "slug": "carfax",
+          "url": {
+            "thronId": "be359a70-9fd6-4546-af0a-8d8ea95f0931"
+          }
+        }
+      ]
+    },
+    "accessories": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 10,
+        "order": 12,
+        "param": "a",
+        "inUrl": false,
+        "type": "checkbox",
+        "isVisible": true
+      },
+      "options": [
+        {
+          "slug": "CRPT",
+          "name": "Carpet Color",
+          "count": 1978,
+          "groupLabel1": "interior",
+          "groupLabel3": "carpets"
+        },
+        {
+          "slug": "LOGO",
+          "name": "\"Scuderia Ferrari\" shields on fenders",
+          "count": 1668,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "EMPH",
+          "name": "Embroidered Cavallino emblem on headrest",
+          "count": 1385,
+          "groupLabel1": "interior",
+          "groupLabel3": "stitching"
+        },
+        {
+          "slug": "STC2",
+          "name": "Special stitching in colour of customer's choice",
+          "count": 1119,
+          "groupLabel1": "interior",
+          "groupLabel3": "stitching"
+        },
+        {
+          "slug": "CALY",
+          "name": "Giallo Modena brake callipers",
+          "count": 862,
+          "groupLabel1": "exterior",
+          "groupLabel3": "breaks"
+        },
+        {
+          "slug": "PAC1",
+          "name": "Rear parking camera",
+          "count": 821,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "adas"
+        },
+        {
+          "slug": "ELEV",
+          "name": "Front and rear suspension lift",
+          "count": 780,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "RPMY",
+          "name": "Yellow tachometer dial face",
+          "count": 749,
+          "groupLabel1": "interior",
+          "groupLabel3": "rev counter"
+        },
+        {
+          "slug": "RSFE",
+          "name": "Full-electric seats",
+          "count": 740,
+          "groupLabel1": "interior",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "CIDL",
+          "name": "Carbon fibre trim driver zone and LED shift indicators on steering wheel",
+          "count": 734,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "FLMA",
+          "name": "Overmats with embroidered vehicle logo",
+          "count": 722,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "PAR2",
+          "name": "Front parking sensors",
+          "count": 714,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "adas"
+        },
+        {
+          "slug": "NDSP",
+          "name": "",
+          "count": 707,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SPEC",
+          "name": "",
+          "count": 666,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "AFS1",
+          "name": "AFS (Adaptive frontlight system)",
+          "count": 662,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "LANG",
+          "name": "",
+          "count": 632,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "HELE",
+          "name": "HELE system (High Emotion Low Emission)",
+          "count": 628,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "DATR",
+          "name": "Carbon fibre dashboard accents",
+          "count": 578,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "SNDB",
+          "name": "Premium Hi-Fi system",
+          "count": 519,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "RSFD",
+          "name": "20\" forged wheels with diamond-polished finish",
+          "count": 517,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "CILR",
+          "name": "Carbon fibre centre console",
+          "count": 500,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "CLDT",
+          "name": "Leather passenger compartment details in colour of customer's choice",
+          "count": 487,
+          "groupLabel1": "interior",
+          "groupLabel3": "cockpit bands"
+        },
+        {
+          "slug": "LEDS",
+          "name": "Carbon fibre steering wheel with LEDs",
+          "count": 486,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "STC1",
+          "name": "Standard stitching in colour of customer's choice",
+          "count": 486,
+          "groupLabel1": "interior",
+          "groupLabel3": "stitching"
+        },
+        {
+          "slug": "CALR",
+          "name": "Rosso Corsa brake callipers",
+          "count": 445,
+          "groupLabel1": "exterior",
+          "groupLabel3": "breaks"
+        },
+        {
+          "slug": "MIR3",
+          "name": "Electrochromic exterior rear view mirrors",
+          "count": 435,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "PDIS",
+          "name": "Passenger display",
+          "count": 422,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "EXA3",
+          "name": "Sports tailpipe tips",
+          "count": 409,
+          "groupLabel1": "exterior",
+          "groupLabel3": "exhaust"
+        },
+        {
+          "slug": "ACPL",
+          "name": "Apple CarPlay",
+          "count": 406,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "EXAB",
+          "name": "Tailpipe tips with matte black finish",
+          "count": 388,
+          "groupLabel1": "exterior",
+          "groupLabel3": "exhaust"
+        },
+        {
+          "slug": "RSCH",
+          "name": "Carbon fibre racing seats",
+          "count": 387,
+          "groupLabel1": "interior",
+          "groupLabel3": "racing seats"
+        },
+        {
+          "slug": "CEIS",
+          "name": "Carbon fibre lateral air intake splitters",
+          "count": 384,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "CSB1",
+          "name": "Coloured seat belts",
+          "count": 376,
+          "groupLabel1": "interior",
+          "groupLabel3": "belts"
+        },
+        {
+          "slug": "CEXS",
+          "name": "Carbon fibre under-door trim",
+          "count": 372,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "MADM",
+          "name": "Dual mode MagneRide suspension",
+          "count": 347,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "performance package"
+        },
+        {
+          "slug": "CITZ",
+          "name": "Upper part of centre tunnel in carbon fibre",
+          "count": 346,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "SKPA",
+          "name": "Folding rear seat backrests (Ski passage)",
+          "count": 340,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "FCAM",
+          "name": "Advanced Front Driving Camera",
+          "count": 338,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "adas"
+        },
+        {
+          "slug": "FCWS",
+          "name": "Carbon fibre front spoiler",
+          "count": 332,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "CEXD",
+          "name": "Carbon fibre rear diffuser",
+          "count": 327,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "RIFS",
+          "name": "20\" forged wheels, matte Grigio Corsa",
+          "count": 313,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "RSES",
+          "name": "Manual ratchet seat height adjustment mechanism",
+          "count": 310,
+          "groupLabel1": "interior",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "CISK",
+          "name": "Carbon fibre exterior sill plate",
+          "count": 306,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "TPM0",
+          "name": "TPMS (tyre temperature and pressure monitoring system)",
+          "count": 300,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "SNDH",
+          "name": "Premium Hi-Fi system",
+          "count": 291,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "AFS2",
+          "name": "AFS2 (Adaptive frontlight system)",
+          "count": 281,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "RMSV",
+          "name": "20” forged wheels with chrome finish",
+          "count": 278,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "TYMX",
+          "name": "Pneumatici Michelin",
+          "count": 269,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "tyres"
+        },
+        {
+          "slug": "NAVC",
+          "name": "Audio-navigator system with Bluetooth©",
+          "count": 263,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "STW1",
+          "name": "Leather steering wheel in colour of customer's choice",
+          "count": 261,
+          "groupLabel1": "interior",
+          "groupLabel3": "steering wheel"
+        },
+        {
+          "slug": "PLAL",
+          "name": "Aluminium footrest",
+          "count": 258,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "SURR",
+          "name": "Surround View",
+          "count": 245,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "adas"
+        },
+        {
+          "slug": "CUPC",
+          "name": "Carbon fibre wheel centre cap",
+          "count": 244,
+          "groupLabel1": "exterior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "RUF1",
+          "name": "Leather headliner in colour of customer's choice",
+          "count": 234,
+          "groupLabel1": "interior",
+          "groupLabel3": "headliner"
+        },
+        {
+          "slug": "BIC2",
+          "name": "Two-tone bodywork",
+          "count": 225,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "DAYT",
+          "name": "\"Daytona\" seats",
+          "count": 220,
+          "groupLabel1": "interior",
+          "groupLabel3": "comfort seats"
+        },
+        {
+          "slug": "TYPP",
+          "name": "Pneumatici Pirelli",
+          "count": 208,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "MIR2",
+          "name": "Electrochromic exterior and interior rear view mirrors",
+          "count": 200,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "CEL2",
+          "name": "Carbon fibre engine compartment",
+          "count": 197,
+          "groupLabel1": "exterior",
+          "groupLabel3": "engine bay"
+        },
+        {
+          "slug": "ELEC",
+          "name": "Electric seats",
+          "count": 194,
+          "groupLabel1": "interior",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "HOLK",
+          "name": "Homelink home access control system",
+          "count": 192,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "NVT1",
+          "name": "Antifurto Satelitare + 1 Anno Di Sottoscrizione (Included In The Otr Price, Invoiced In A Separated Line At 851,06)",
+          "count": 189,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "anti-theft"
+        },
+        {
+          "slug": "TIWN",
+          "name": "Titanium wheel studs",
+          "count": 188,
+          "groupLabel1": "exterior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "HAW1",
+          "name": "Athermic windscreen",
+          "count": 186,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "INST",
+          "name": "",
+          "count": 180,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CALA",
+          "name": "Alluminio brake callipers",
+          "count": 179,
+          "groupLabel1": "exterior",
+          "groupLabel3": "breaks"
+        },
+        {
+          "slug": "ULEZ",
+          "name": "Upper part of passenger compartment trim in leather",
+          "count": 179,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "EXAT",
+          "name": "Titanium tailpipe tips",
+          "count": 176,
+          "groupLabel1": "exterior",
+          "groupLabel3": "exhaust"
+        },
+        {
+          "slug": "PAC3",
+          "name": "Front/rear parking cameras",
+          "count": 170,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "adas"
+        },
+        {
+          "slug": "CEXG",
+          "name": "Carbon fibre lateral spoilers",
+          "count": 168,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "IPOD",
+          "name": "Ready-kit for use of iPod©",
+          "count": 166,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "RSFV",
+          "name": "Full-electric ventilated front seats",
+          "count": 158,
+          "groupLabel1": "interior",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "RPMW",
+          "name": "White tachometer dial face",
+          "count": 154,
+          "groupLabel1": "interior",
+          "groupLabel3": "rev counter"
+        },
+        {
+          "slug": "DAY1",
+          "name": "\"Daytona\" style seat upholstery",
+          "count": 153,
+          "groupLabel1": "interior",
+          "groupLabel3": "comfort seats"
+        },
+        {
+          "slug": "SATR",
+          "name": "Antenna Sdars",
+          "count": 152,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "BRAD",
+          "name": "Blind Spot Detection and rear radar",
+          "count": 149,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "adas"
+        },
+        {
+          "slug": "DSH5",
+          "name": "Upper zone of passenger compartment in leather in colour of customer's choice",
+          "count": 143,
+          "groupLabel1": "interior",
+          "groupLabel3": "upper dashboard"
+        },
+        {
+          "slug": "RPMA",
+          "name": "Aluminium tachometer dial face",
+          "count": 142,
+          "groupLabel1": "interior",
+          "groupLabel3": "rev counter"
+        },
+        {
+          "slug": "FNEN",
+          "name": "Functional equipment",
+          "count": 142,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "FNEU",
+          "name": "Equipaggiamento Funzionale Usa",
+          "count": 134,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "CRS1",
+          "name": "Cruise Control",
+          "count": 132,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "MIH2",
+          "name": "Specchi Elettrocromici Esterni Ed Interno + Home Link",
+          "count": 131,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "ALCS",
+          "name": "Centre part of seats in Alcantara®",
+          "count": 127,
+          "groupLabel1": "interior",
+          "groupLabel3": "alcantara central seat"
+        },
+        {
+          "slug": "CTU4",
+          "name": "Centre tunnel in colour of customer's choice",
+          "count": 125,
+          "groupLabel1": "interior",
+          "groupLabel3": "central tunnel"
+        },
+        {
+          "slug": "CFG1",
+          "name": "Front grille with chrome accents",
+          "count": 124,
+          "groupLabel1": "exterior",
+          "groupLabel3": "front grill"
+        },
+        {
+          "slug": "GRDC",
+          "name": "Rear segment in carbon fibre",
+          "count": 124,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "CEAD",
+          "name": "Carbon fibre rear air intakes",
+          "count": 124,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "CALB",
+          "name": "Gloss black brake callipers",
+          "count": 123,
+          "groupLabel1": "exterior",
+          "groupLabel3": "breaks"
+        },
+        {
+          "slug": "PIP1",
+          "name": "Seats with leather piping in colour of customer's choice",
+          "count": 122,
+          "groupLabel1": "interior",
+          "groupLabel3": "piping"
+        },
+        {
+          "slug": "CIDH",
+          "name": "Internal door handles in carbon fibre",
+          "count": 121,
+          "groupLabel1": "interior",
+          "groupLabel3": "door handles"
+        },
+        {
+          "slug": "CHIP",
+          "name": "Complete protective film kit",
+          "count": 121,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "DEDI",
+          "name": "Silver nameplate",
+          "count": 120,
+          "groupLabel1": "interior",
+          "groupLabel3": "dedi"
+        },
+        {
+          "slug": "RPMR",
+          "name": "Red tachometer dial face",
+          "count": 119,
+          "groupLabel1": "interior",
+          "groupLabel3": "rev counter"
+        },
+        {
+          "slug": "CLDX",
+          "name": "Extracampionario Dettagli Abitacolo Colorati",
+          "count": 118,
+          "groupLabel1": "interior",
+          "groupLabel3": "cockpit bands"
+        },
+        {
+          "slug": "RSCD",
+          "name": "\"Daytona\" racing seats in carbon fibre",
+          "count": 117,
+          "groupLabel1": "interior",
+          "groupLabel3": "racing seats"
+        },
+        {
+          "slug": "PEXS",
+          "name": "Sports external sill trim panel",
+          "count": 114,
+          "groupLabel1": "exterior",
+          "groupLabel3": "front grill"
+        },
+        {
+          "slug": "SND2",
+          "name": "Integrated audio system",
+          "count": 113,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "ADAS",
+          "name": "Complete ADAS pack",
+          "count": 107,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "adas"
+        },
+        {
+          "slug": "STP1",
+          "name": "Leather \"Daytona\" insert panels in colour of customer's choice",
+          "count": 107,
+          "groupLabel1": "interior",
+          "groupLabel3": "daytona stripes"
+        },
+        {
+          "slug": "FNEQ",
+          "name": "Functional equipment (NO Navigator)",
+          "count": 106,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "CERF",
+          "name": "Rear pillars with carbon fibre cladding",
+          "count": 99,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "UALZ",
+          "name": "Upper part of passenger compartment trim in Alcantara®",
+          "count": 98,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "CEFS",
+          "name": "Carbon fibre front spoiler and aero flaps",
+          "count": 98,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "LERZ",
+          "name": "Upper part of rear bench in same colour as interior",
+          "count": 95,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "EXT1",
+          "name": "Hand-held fire extinguisher",
+          "count": 94,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "PNT3",
+          "name": "Two-tone Racing livery stripe",
+          "count": 91,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "CEAI",
+          "name": "Carbon fibre front bumper intake",
+          "count": 91,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "COLL",
+          "name": "Engine compartment lid collar in matte black finish",
+          "count": 90,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "BVEN",
+          "name": "Anello Nero Bocchette Plancia",
+          "count": 88,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "RMSC",
+          "name": "20\" cast wheels, matte Grigio Corsa",
+          "count": 87,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "CIPZ",
+          "name": "Gloss finish carbon fibre passenger compartment accents",
+          "count": 84,
+          "groupLabel1": "interior",
+          "groupLabel3": "door panels"
+        },
+        {
+          "slug": "BAC1",
+          "name": "Seat backrest in same colour as interior trim",
+          "count": 84,
+          "groupLabel1": "interior",
+          "groupLabel3": "seats backrest"
+        },
+        {
+          "slug": "ATTC",
+          "name": "",
+          "count": 84,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SHF1",
+          "name": "Rear bench upholstered in leather",
+          "count": 83,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "CERB",
+          "name": "Carbon fibre luggage compartment accents",
+          "count": 83,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "CISC",
+          "name": "Carbon fibre exterior sill plate",
+          "count": 81,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "DSIA",
+          "name": "Lower dashboard area in Alcantara®",
+          "count": 80,
+          "groupLabel1": "interior",
+          "groupLabel3": "lower dashboard"
+        },
+        {
+          "slug": "T3D1",
+          "name": "",
+          "count": 79,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CIIP",
+          "name": "Matte finish carbon fibre instrument binnacle brow",
+          "count": 75,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "PIP7",
+          "name": "Leather accents for lower part of passenger compartment in colour of customer's choice",
+          "count": 72,
+          "groupLabel1": "interior",
+          "groupLabel3": "cockpit bands"
+        },
+        {
+          "slug": "CELB",
+          "name": "Lower part of rear bumper in carbon fibre",
+          "count": 72,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "ALIC",
+          "name": "Alcantara® passenger compartment mats",
+          "count": 72,
+          "groupLabel1": "interior",
+          "groupLabel3": "carpets"
+        },
+        {
+          "slug": "RSCG",
+          "name": "\"Goldrake\" racing seats in carbon fibre",
+          "count": 71,
+          "groupLabel1": "interior",
+          "groupLabel3": "racing seats"
+        },
+        {
+          "slug": "DSH7",
+          "name": "Lower zone of passenger compartment in leather in colour of customer's choice",
+          "count": 71,
+          "groupLabel1": "interior",
+          "groupLabel3": "lower dashboard"
+        },
+        {
+          "slug": "FIO1",
+          "name": "Assetto Fiorano",
+          "count": 70,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "performance package"
+        },
+        {
+          "slug": "ALCN",
+          "name": "Centre part of seat in colour-matched Alcantara®",
+          "count": 70,
+          "groupLabel1": "interior",
+          "groupLabel3": "alcantara central seat"
+        },
+        {
+          "slug": "FIO2",
+          "name": "Fiorano Package Extended",
+          "count": 70,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "performance package"
+        },
+        {
+          "slug": "ALDP",
+          "name": "Centre door card in Alcantara®",
+          "count": 68,
+          "groupLabel1": "interior",
+          "groupLabel3": "door panels"
+        },
+        {
+          "slug": "SOFT",
+          "name": "",
+          "count": 67,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "PAC2",
+          "name": "Front parking camera with Dual View",
+          "count": 67,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "adas"
+        },
+        {
+          "slug": "STYL",
+          "name": "\"Style\" seats",
+          "count": 64,
+          "groupLabel1": "interior",
+          "groupLabel3": "comfort seats"
+        },
+        {
+          "slug": "CTUA",
+          "name": "Centre tunnel in Alcantara®",
+          "count": 63,
+          "groupLabel1": "interior",
+          "groupLabel3": "central tunnel"
+        },
+        {
+          "slug": "CITP",
+          "name": "Carbon fibre cup holder bezel",
+          "count": 63,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "CDRE",
+          "name": "Lettore Cd",
+          "count": 61,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "ALIH",
+          "name": "Alcantara® headliner in colour of customer's choice",
+          "count": 59,
+          "groupLabel1": "interior",
+          "groupLabel3": "headliner"
+        },
+        {
+          "slug": "RVEN",
+          "name": "Red Ring On Dashboard Vents",
+          "count": 58,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "CDCH",
+          "name": "6-CD changer",
+          "count": 58,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "SPAS",
+          "name": "Quilted style seats",
+          "count": 57,
+          "groupLabel1": "interior",
+          "groupLabel3": "comfort seats"
+        },
+        {
+          "slug": "SHF3",
+          "name": "Leather rear parcel shelf",
+          "count": 57,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "CALS",
+          "name": "Rosso Scuderia brake callipers",
+          "count": 56,
+          "groupLabel1": "exterior",
+          "groupLabel3": "breaks"
+        },
+        {
+          "slug": "AFSU",
+          "name": "Proiettori Anteriori Adattivi (America)",
+          "count": 55,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "TRIM",
+          "name": "",
+          "count": 55,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "PPAC",
+          "name": "Personalisation pack",
+          "count": 54,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "CRPK",
+          "name": "Racing pack in carbon fibre",
+          "count": 53,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "CCMD",
+          "name": "",
+          "count": 53,
+          "groupLabel1": "interior",
+          "groupLabel3": "steering wheel"
+        },
+        {
+          "slug": "ATEL",
+          "name": "",
+          "count": 53,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "4HAR",
+          "name": "4-point seat harnesses",
+          "count": 53,
+          "groupLabel1": "interior",
+          "groupLabel3": "belts"
+        },
+        {
+          "slug": "LTDP",
+          "name": "Centre part of door panel in leather",
+          "count": 52,
+          "groupLabel1": "interior",
+          "groupLabel3": "door panels"
+        },
+        {
+          "slug": "PRG1",
+          "name": "Tinted rear windows",
+          "count": 51,
+          "groupLabel1": "exterior",
+          "groupLabel3": "privacy windows"
+        },
+        {
+          "slug": "DUAL",
+          "name": "Mid and upper part of passenger compartment trim in leather",
+          "count": 50,
+          "groupLabel1": "interior",
+          "groupLabel3": "complement parts"
+        },
+        {
+          "slug": "ECRF",
+          "name": "Panoramic glazed roof",
+          "count": 49,
+          "groupLabel1": "exterior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "RSFT",
+          "name": "Driver seat adjustment system",
+          "count": 48,
+          "groupLabel1": "interior",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "INMT",
+          "name": "",
+          "count": 47,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "XLED",
+          "name": "Adaptive Front-Lighting System (AFS3)",
+          "count": 46,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "SVR1",
+          "name": "1 Anno Abbonam. Antifurto Svr",
+          "count": 46,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "anti-theft"
+        },
+        {
+          "slug": "STP2",
+          "name": "\"Daytona\" insert panels in Alcantara®",
+          "count": 45,
+          "groupLabel1": "interior",
+          "groupLabel3": "daytona stripes"
+        },
+        {
+          "slug": "RIMM",
+          "name": "Matt painted wheels",
+          "count": 44,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "DAY2",
+          "name": "\"Daytona\" rear seats",
+          "count": 43,
+          "groupLabel1": "interior",
+          "groupLabel3": "daytona stripes"
+        },
+        {
+          "slug": "CIMP",
+          "name": "Matte finish for interior carbon fibre",
+          "count": 43,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "DAAL",
+          "name": "Leather/Alcantara® interior trim",
+          "count": 43,
+          "groupLabel1": "interior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "RMSD",
+          "name": "20\" sports wheels, diamond-polished",
+          "count": 43,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "SMRT",
+          "name": "Connectivity for smartphone",
+          "count": 43,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "RSFR",
+          "name": "20” forged wheels, matte black",
+          "count": 42,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "DEPK",
+          "name": "Telemetry kit",
+          "count": 41,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "telemetria"
+        },
+        {
+          "slug": "ALDT",
+          "name": "Alcantara® seat piping",
+          "count": 40,
+          "groupLabel1": "interior",
+          "groupLabel3": "complement parts"
+        },
+        {
+          "slug": "RICS",
+          "name": "20\" wheels, gloss Liquid Silver",
+          "count": 39,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "CEFL",
+          "name": "Carbon fibre rear fog light bezel",
+          "count": 38,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "CIPN",
+          "name": "Gloss finish carbon fibre rear bench",
+          "count": 38,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "CALC",
+          "name": "Blue brake callipers",
+          "count": 37,
+          "groupLabel1": "exterior",
+          "groupLabel3": "breaks"
+        },
+        {
+          "slug": "MNFC",
+          "name": "Carbon fibre intake manifold cover",
+          "count": 37,
+          "groupLabel1": "exterior",
+          "groupLabel3": "engine bay"
+        },
+        {
+          "slug": "LOSS",
+          "name": "Diamond pattern style seats",
+          "count": 36,
+          "groupLabel1": "interior",
+          "groupLabel3": "comfort seats"
+        },
+        {
+          "slug": "PNT7",
+          "name": "Racing livery",
+          "count": 35,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "SHFA",
+          "name": "Rear bulkhead trim in Alcantara®",
+          "count": 35,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "RIMP",
+          "name": "Glossy painted wheels",
+          "count": 35,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "PARK",
+          "name": "Rear parking sensors",
+          "count": 35,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "adas"
+        },
+        {
+          "slug": "FLAX",
+          "name": "Bandiera Tricolore",
+          "count": 34,
+          "groupLabel1": "exterior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "PIP8",
+          "name": "Alcantara® accents for lower part of passenger compartment",
+          "count": 33,
+          "groupLabel1": "interior",
+          "groupLabel3": "cockpit bands"
+        },
+        {
+          "slug": "PNT4",
+          "name": "Racing livery",
+          "count": 33,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "CALD",
+          "name": "Grigio Silverstone brake callipers",
+          "count": 33,
+          "groupLabel1": "exterior",
+          "groupLabel3": "breaks"
+        },
+        {
+          "slug": "SIEE",
+          "name": "",
+          "count": 32,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SND1",
+          "name": "High power Hi-Fi system with subwoofer",
+          "count": 32,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "ACC1",
+          "name": "ACC (Adaptive Cruise Control) and front radar",
+          "count": 31,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "adas"
+        },
+        {
+          "slug": "CRP4",
+          "name": "Black Alcantara® mats",
+          "count": 31,
+          "groupLabel1": "interior",
+          "groupLabel3": "carpets"
+        },
+        {
+          "slug": "PNT1",
+          "name": "Special Paint (2 Layers)",
+          "count": 31,
+          "groupLabel1": "exterior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "CIZB",
+          "name": "Gloss finish carbon fibre luggage compartment side walls",
+          "count": 31,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "CTU2",
+          "name": "Armrest on centre tunnel in colour of customer's choice",
+          "count": 30,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "TAIL",
+          "name": "",
+          "count": 30,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "LUDP",
+          "name": "Centre part of door panel in leather",
+          "count": 30,
+          "groupLabel1": "interior",
+          "groupLabel3": "door panels"
+        },
+        {
+          "slug": "CTU3",
+          "name": "Lower zone of passenger compartment in leather ",
+          "count": 30,
+          "groupLabel1": "interior",
+          "groupLabel3": "carpets"
+        },
+        {
+          "slug": "CTU1",
+          "name": "Colour of customer's choice for centre tunnel",
+          "count": 30,
+          "groupLabel1": "interior",
+          "groupLabel3": "central tunnel"
+        },
+        {
+          "slug": "CFG3",
+          "name": "Chrome front grille with dark colour brushed finish",
+          "count": 30,
+          "groupLabel1": "exterior",
+          "groupLabel3": "front grill"
+        },
+        {
+          "slug": "CEXF",
+          "name": "Carbon fibre headlamp surrounds",
+          "count": 30,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "LEDP",
+          "name": "Upper part of door panel in same colour as interior",
+          "count": 29,
+          "groupLabel1": "interior",
+          "groupLabel3": "door panels"
+        },
+        {
+          "slug": "HSHS",
+          "name": "Handling Speciale equipment configuration",
+          "count": 29,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "BAGT",
+          "name": "Trolley case and bag set for luggage compartment",
+          "count": 27,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "CIHZ",
+          "name": "Carbon fibre dashboard vents",
+          "count": 27,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "DLPA",
+          "name": "Dream Line Palette F1 Monocolore",
+          "count": 27,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "ALBC",
+          "name": "Alcantara® luggage compartment mats",
+          "count": 26,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "TYBR",
+          "name": "",
+          "count": 26,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "tyres"
+        },
+        {
+          "slug": "CIDZ",
+          "name": "Carbon fibre trim driver zone",
+          "count": 26,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "CIRZ",
+          "name": "Luggage compartment sill protector in carbon fibre",
+          "count": 25,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "ALOG",
+          "name": "Airbrushed \"Scuderia Ferrari\" shields on fenders",
+          "count": 25,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "EPHX",
+          "name": "Extracampionario Cavall. Cuciti Su Poggiatesta",
+          "count": 24,
+          "groupLabel1": "interior",
+          "groupLabel3": "stitching"
+        },
+        {
+          "slug": "EMR1",
+          "name": "Exterior rear view mirrors with dark colour accent",
+          "count": 24,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "F1PT",
+          "name": "Mostrine Pulsanti F1 Verniciate Tricolore",
+          "count": 24,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "MIR4",
+          "name": "",
+          "count": 23,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "DSH1",
+          "name": "Upper zone of passenger compartment in leather in colour of customer's choice",
+          "count": 23,
+          "groupLabel1": "interior",
+          "groupLabel3": "upper dashboard"
+        },
+        {
+          "slug": "DSH4",
+          "name": "Leather dashboard in colour of customer's choice",
+          "count": 22,
+          "groupLabel1": "interior",
+          "groupLabel3": "upper dashboard"
+        },
+        {
+          "slug": "CICM",
+          "name": "Carbonio Interno Speciale",
+          "count": 22,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "LOS2",
+          "name": "Diamond pattern rear seats",
+          "count": 22,
+          "groupLabel1": "interior",
+          "groupLabel3": "comfort seats"
+        },
+        {
+          "slug": "MIR1",
+          "name": "Electrochromic internal mirror",
+          "count": 22,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "ROLL",
+          "name": "Colour of customer's choice for leather rollbar trim",
+          "count": 22,
+          "groupLabel1": "interior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "WIRE",
+          "name": "Wireless smartphone charger",
+          "count": 22,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "SVRK",
+          "name": "Sistema Antifurto Svr Con Card",
+          "count": 22,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "anti-theft"
+        },
+        {
+          "slug": "MIH4",
+          "name": "",
+          "count": 21,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "MRKC",
+          "name": "",
+          "count": 21,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "RMSR",
+          "name": "20\" racing wheels, matte Grigio Nürburgring",
+          "count": 20,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "ALRZ",
+          "name": "Alcantara® rear flaps in colour of customer's choice",
+          "count": 20,
+          "groupLabel1": "interior",
+          "groupLabel3": "seats backrest"
+        },
+        {
+          "slug": "SND4",
+          "name": "Bose Hi-Fi system",
+          "count": 20,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "SHF2",
+          "name": "Rear bench upholstered in leather",
+          "count": 20,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "F1PM",
+          "name": "Center Console Bridge Buttons",
+          "count": 19,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "ST2X",
+          "name": "Stitching with special thread",
+          "count": 19,
+          "groupLabel1": "interior",
+          "groupLabel3": "stitching"
+        },
+        {
+          "slug": "SHF5",
+          "name": "Alcantara® rear parcel shelf",
+          "count": 19,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "LOS1",
+          "name": "Diamond pattern style seat upholstery",
+          "count": 19,
+          "groupLabel1": "interior",
+          "groupLabel3": "comfort seats"
+        },
+        {
+          "slug": "CALG",
+          "name": "Gold brake callipers",
+          "count": 19,
+          "groupLabel1": "exterior",
+          "groupLabel3": "breaks"
+        },
+        {
+          "slug": "CFG4",
+          "name": "Front grille with black chrome finish accents",
+          "count": 18,
+          "groupLabel1": "exterior",
+          "groupLabel3": "front grill"
+        },
+        {
+          "slug": "CEXN",
+          "name": "Carbon fibre lateral sill fins",
+          "count": 18,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "CFPA",
+          "name": "Racing shift paddles in carbon fibre",
+          "count": 18,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "TRCA",
+          "name": "Track camera kit",
+          "count": 18,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "telemetria"
+        },
+        {
+          "slug": "NVTK",
+          "name": "Navtrack satellite alarm system",
+          "count": 18,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "anti-theft"
+        },
+        {
+          "slug": "NAV4",
+          "name": "Satellite navigator",
+          "count": 18,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "FLAG",
+          "name": "Italian flag on rear lid",
+          "count": 18,
+          "groupLabel1": "exterior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "CILZ",
+          "name": "Lower zone of passenger compartment in carbon fibre ",
+          "count": 18,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "RSPA",
+          "name": "Rear roof segment in black finish",
+          "count": 17,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "PNT9",
+          "name": "Extended livery stripe",
+          "count": 17,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "PIP2",
+          "name": "Leather passenger compartment accents in colour of customer's choice",
+          "count": 17,
+          "groupLabel1": "interior",
+          "groupLabel3": "complement parts"
+        },
+        {
+          "slug": "VIEH",
+          "name": "",
+          "count": 16,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "RSVD",
+          "name": "20\" Dynamic forged wheels with diamond-polished finish",
+          "count": 16,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "BAG2",
+          "name": "Suitcase set for rear bench",
+          "count": 16,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "BAG3",
+          "name": "Set of leather bags for rear bench",
+          "count": 16,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "CEFB",
+          "name": "Carbon fibre air filter boxes",
+          "count": 16,
+          "groupLabel1": "exterior",
+          "groupLabel3": "engine bay"
+        },
+        {
+          "slug": "DSH6",
+          "name": "Colour of customer's choice for windscreen surround trim",
+          "count": 16,
+          "groupLabel1": "interior",
+          "groupLabel3": "windshield inner frame"
+        },
+        {
+          "slug": "BAC3",
+          "name": "Leather seat backrest trim in colour of customer's choice",
+          "count": 16,
+          "groupLabel1": "interior",
+          "groupLabel3": "seats backrest"
+        },
+        {
+          "slug": "ALDX",
+          "name": "Outer door card in Alcantara®",
+          "count": 16,
+          "groupLabel1": "interior",
+          "groupLabel3": "door panels"
+        },
+        {
+          "slug": "DLUL",
+          "name": "Dream Line Archi Volante",
+          "count": 15,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "WHE4",
+          "name": "20\" space-saver spare wheel kit",
+          "count": 15,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "tyres"
+        },
+        {
+          "slug": "RWW0",
+          "name": "Tergilunotto Posteriore",
+          "count": 15,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "RMDR",
+          "name": "20\" forged wheels, matte Grigio Corsa",
+          "count": 15,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "RCGI",
+          "name": "20” forged wheels, gold",
+          "count": 15,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "CHPP",
+          "name": "Protective film for front bumper",
+          "count": 14,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "BAGP",
+          "name": "Leather trolley case set for luggage compartment",
+          "count": 14,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "DSH8",
+          "name": "Front zone of dashboard in colour of customer's choice",
+          "count": 14,
+          "groupLabel1": "interior",
+          "groupLabel3": "upper dashboard"
+        },
+        {
+          "slug": "SMOK",
+          "name": "Smoker's kit",
+          "count": 14,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "RIM4",
+          "name": "20\" Ferrari Challenge style wheels",
+          "count": 14,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "EQBT",
+          "name": "Fully trimmed luggage compartment",
+          "count": 14,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "CRP1",
+          "name": "Leather mats in same colour as vehicle interior / black Alcantara® mats",
+          "count": 13,
+          "groupLabel1": "interior",
+          "groupLabel3": "carpets"
+        },
+        {
+          "slug": "CFEP",
+          "name": "Carbon fibre pack for exterior",
+          "count": 13,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "CDLX",
+          "name": "Zona Guida (Cidl) In Carbonio Speciale",
+          "count": 13,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "AIRS",
+          "name": "Front seat neck warmer",
+          "count": 13,
+          "groupLabel1": "interior",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "DSHA",
+          "name": "Alcantara® dashboard in colour of customer's choice",
+          "count": 13,
+          "groupLabel1": "interior",
+          "groupLabel3": "upper dashboard"
+        },
+        {
+          "slug": "SHFC",
+          "name": "Leather upholstery for rear bench",
+          "count": 13,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "ROL4",
+          "name": "Roll bar, non-track use",
+          "count": 13,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "HDL1",
+          "name": "",
+          "count": 13,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "FLAT",
+          "name": "Run Flat tyres",
+          "count": 13,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "tyres"
+        },
+        {
+          "slug": "CSTT",
+          "name": "Striscia Sedili In Pelle Tricolore",
+          "count": 13,
+          "groupLabel1": "interior",
+          "groupLabel3": "cockpit bands"
+        },
+        {
+          "slug": "CHUS",
+          "name": "",
+          "count": 12,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CECM",
+          "name": "Carbonio Esterno Speciale",
+          "count": 12,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "STWH",
+          "name": "Heated steering wheel",
+          "count": 12,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "PLOS",
+          "name": "Centre part of door panel in diamond pattern leather",
+          "count": 12,
+          "groupLabel1": "interior",
+          "groupLabel3": "door panels"
+        },
+        {
+          "slug": "MIH1",
+          "name": "Specchio Elettrocromico Interno + Home Link",
+          "count": 12,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "GRID",
+          "name": "Interior grilles in colour matching leather trim",
+          "count": 12,
+          "groupLabel1": "interior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "GRD1",
+          "name": "",
+          "count": 12,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "DATX",
+          "name": "Inserti Plancia In Carbonio Speciale",
+          "count": 12,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "CPHO",
+          "name": "Rear moulding (license plate holder) in carbon fibre",
+          "count": 12,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "ATNY",
+          "name": "",
+          "count": 12,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "BATC",
+          "name": "Carbon fibre exterior sill plate",
+          "count": 11,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "NAVI",
+          "name": "",
+          "count": 11,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "BEXD",
+          "name": "Estrattore Post. Nero",
+          "count": 11,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "OUTL",
+          "name": "",
+          "count": 11,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "RBAS",
+          "name": "",
+          "count": 11,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "RIMX",
+          "name": "Ball-polished wheels (standard style)",
+          "count": 11,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "WHE2",
+          "name": "Spare wheel kit ",
+          "count": 11,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "tyres"
+        },
+        {
+          "slug": "BLUC",
+          "name": "Audio system with Bluetooth© + Ipod© Touch",
+          "count": 10,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "GRD2",
+          "name": "",
+          "count": 10,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SRSC",
+          "name": "\"Style\" racing seats in carbon fibre",
+          "count": 10,
+          "groupLabel1": "interior",
+          "groupLabel3": "racing seats"
+        },
+        {
+          "slug": "RIM1",
+          "name": "",
+          "count": 10,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ELSC",
+          "name": "Electrically adjustable steering column",
+          "count": 10,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "RSCP",
+          "name": "Passenger seat kit",
+          "count": 10,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "racing seats"
+        },
+        {
+          "slug": "RIM3",
+          "name": "Ferrari Challenge style wheels",
+          "count": 9,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "HEAT",
+          "name": "Electrically adjustable and heated seats",
+          "count": 9,
+          "groupLabel1": "interior",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "ALWA",
+          "name": "Alcantara® wheelhouse trim ",
+          "count": 9,
+          "groupLabel1": "interior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "CEXP",
+          "name": "Carbon fibre vehicle package",
+          "count": 9,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "VIEW",
+          "name": "Visibility equipment configuration",
+          "count": 9,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "TYHP",
+          "name": "Performance tyres",
+          "count": 9,
+          "groupLabel1": "exterior",
+          "groupLabel3": "tyres"
+        },
+        {
+          "slug": "STWA",
+          "name": "Alcantara® steering wheel in colour of customer's choice",
+          "count": 9,
+          "groupLabel1": "interior",
+          "groupLabel3": "steering wheel"
+        },
+        {
+          "slug": "SHFP",
+          "name": "Vertical rear bulkhead in leather",
+          "count": 9,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "CEXW",
+          "name": "Exterior rear view mirrors with carbon fibre shells",
+          "count": 9,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "LUG1",
+          "name": "",
+          "count": 9,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CICZ",
+          "name": "Mid zone of passenger compartment in carbon fibre",
+          "count": 9,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "CISX",
+          "name": "Battitacco In Carbonio Speciale",
+          "count": 8,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "CIFP",
+          "name": "Carbon fibre footrests",
+          "count": 8,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "CIAD",
+          "name": "Carbon fibre dashboard air vent",
+          "count": 8,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "CFG2",
+          "name": "Chrome front grille",
+          "count": 8,
+          "groupLabel1": "exterior",
+          "groupLabel3": "front grill"
+        },
+        {
+          "slug": "LEDL",
+          "name": "Leather steering wheel + leds",
+          "count": 8,
+          "groupLabel1": "interior",
+          "groupLabel3": "steering wheel"
+        },
+        {
+          "slug": "ARMC",
+          "name": "Door panel armrest in Alcantara®",
+          "count": 8,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "TMIS",
+          "name": "",
+          "count": 8,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SPGR",
+          "name": "Sport grille kit",
+          "count": 8,
+          "groupLabel1": "exterior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "RSCX",
+          "name": "Sedile Pilota Taglia Xl/l",
+          "count": 8,
+          "groupLabel1": "interior",
+          "groupLabel3": "seats backrest"
+        },
+        {
+          "slug": "PEBL",
+          "name": "Exterior pillar trim with black finish",
+          "count": 8,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "LTDX",
+          "name": "Outer door card in leather",
+          "count": 8,
+          "groupLabel1": "interior",
+          "groupLabel3": "door panels"
+        },
+        {
+          "slug": "EXP1",
+          "name": "Tailpipe tips with chrome finish",
+          "count": 8,
+          "groupLabel1": "exterior",
+          "groupLabel3": "exhaust"
+        },
+        {
+          "slug": "EMRC",
+          "name": "Body-colour exterior rear view mirrors",
+          "count": 7,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "LUG9",
+          "name": "",
+          "count": 7,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "DLPT",
+          "name": "Dreamline Tricolore Palette F1",
+          "count": 7,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "CEXX",
+          "name": "Sottoporta In Carbonio Speciale",
+          "count": 7,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "BAC0",
+          "name": "Leather backrest back panel",
+          "count": 7,
+          "groupLabel1": "interior",
+          "groupLabel3": "seats backrest"
+        },
+        {
+          "slug": "RMST",
+          "name": "20\" two-tone wheel with diamond-polished finish",
+          "count": 7,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "PRSS",
+          "name": "",
+          "count": 7,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "NET1",
+          "name": "Luggage compartment retainer nets",
+          "count": 7,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "EXHD",
+          "name": "128Gb Hard Disk Expansion",
+          "count": 7,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "ILS2",
+          "name": "Inserti Pelle Fianchetti Sedili",
+          "count": 7,
+          "groupLabel1": "interior",
+          "groupLabel3": "cockpit bands"
+        },
+        {
+          "slug": "HCGA",
+          "name": "Cavallino Cromato Portello Carburante",
+          "count": 7,
+          "groupLabel1": "exterior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "FCWX",
+          "name": "Spoiler Anteriore In Carbonio Speciale",
+          "count": 7,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "LID2",
+          "name": "Inserto Pelle Doppio Pannello Porta",
+          "count": 6,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "LEWA",
+          "name": "Leather wheelhouse trim ",
+          "count": 6,
+          "groupLabel1": "interior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "CEXU",
+          "name": "Allestimento In Carbonio",
+          "count": 6,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "PIP4",
+          "name": "Paint finish passenger compartment accent",
+          "count": 6,
+          "groupLabel1": "interior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "CFG5",
+          "name": "Chrome front grille with black finish",
+          "count": 6,
+          "groupLabel1": "exterior",
+          "groupLabel3": "front grill"
+        },
+        {
+          "slug": "PNTG",
+          "name": "",
+          "count": 6,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CIRX",
+          "name": "Cilr In Carbonio Speciale",
+          "count": 6,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "RIM2",
+          "name": "19\" two-piece wheels with sports tyres",
+          "count": 6,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "DAPN",
+          "name": "Painted dashboard cross-piece",
+          "count": 6,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "RIMY",
+          "name": "20\" ball-polished wheels (Ferrari Challenge style)",
+          "count": 6,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "IPA2",
+          "name": "iPad Mini ready-kit for rear passengers",
+          "count": 6,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "SND5",
+          "name": "",
+          "count": 6,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "BATA",
+          "name": "Under-door trim and wheelhouse trim in black Alcantara®",
+          "count": 6,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "LTBC",
+          "name": "Luggage compartment mats in leather",
+          "count": 6,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "CPZX",
+          "name": "Cipz In Carbonio Speciale",
+          "count": 6,
+          "groupLabel1": "interior",
+          "groupLabel3": "door panels"
+        },
+        {
+          "slug": "XLEU",
+          "name": "Adaptive Front Headlights Afs3 (America)",
+          "count": 6,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "driving"
+        },
+        {
+          "slug": "TM70",
+          "name": "",
+          "count": 6,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SUI1",
+          "name": "Suit bag",
+          "count": 6,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "CRP3",
+          "name": "Leather / Alcantara® mats in same colour as vehicle interior",
+          "count": 6,
+          "groupLabel1": "interior",
+          "groupLabel3": "carpets"
+        },
+        {
+          "slug": "LIMU",
+          "name": "Livrea Monocolore Arco Superiore Volante",
+          "count": 6,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "CEDX",
+          "name": "Estrattore In Carbonio Speciale",
+          "count": 6,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "EPHW",
+          "name": "Cavallino Cucito Traversa Posteriore",
+          "count": 6,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "HOLI",
+          "name": "Homelink home access control system",
+          "count": 5,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "HBSA",
+          "name": "Cavallino E Badge Ferrari Satinati",
+          "count": 5,
+          "groupLabel1": "exterior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "ALSE",
+          "name": "Complete seat in Alcantara®",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "sellatura sedile"
+        },
+        {
+          "slug": "OFFP",
+          "name": "Kit Disattivazione Airbag Passeggero",
+          "count": 5,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "CGAS",
+          "name": "Carbon fibre fuel filler flap",
+          "count": 5,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "RMSS",
+          "name": "20” forged wheels, Grigio Scuro",
+          "count": 5,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "BABS",
+          "name": "\"Backbone\" seats",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "comfort seats"
+        },
+        {
+          "slug": "ROL1",
+          "name": "Roll bar, non-track use",
+          "count": 5,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "CIRS",
+          "name": "Carbon fibre rear parcel shelf",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "RSL1",
+          "name": "",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "racing seats"
+        },
+        {
+          "slug": "DVCH",
+          "name": "DVD changer",
+          "count": 5,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "RUF2",
+          "name": "Diamond pattern leather headliner ",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "headliner"
+        },
+        {
+          "slug": "FBWS",
+          "name": "Front Bumper Insert Matt Black",
+          "count": 5,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "AINP",
+          "name": "Allumini Interni Verniciati",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "BAB2",
+          "name": "\"Backbone\" rear seats",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "comfort seats"
+        },
+        {
+          "slug": "WHE1",
+          "name": "",
+          "count": 5,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "STPX",
+          "name": "Leather \"Daytona\" insert panels in off-catalogue colour",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "daytona stripes"
+        },
+        {
+          "slug": "ST1X",
+          "name": "Stitching with special thread",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "stitching"
+        },
+        {
+          "slug": "LTCA",
+          "name": "Leather tunnel console cubbies in colour of customer's choice",
+          "count": 5,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "ALCC",
+          "name": "Tappeti Abitacolo In Alcantara",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "carpets"
+        },
+        {
+          "slug": "F1RY",
+          "name": "Pulsanti F1 Con Anelli Gialli",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "DAAD",
+          "name": "Leather/Alcantara® interior trim",
+          "count": 5,
+          "groupLabel1": "interior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "CHEU",
+          "name": "",
+          "count": 5,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "BAG1",
+          "name": "Suitcase set for rear bench",
+          "count": 4,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "LU11",
+          "name": "1 trolley case",
+          "count": 4,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "ALIW",
+          "name": "Windscreen surround with Alcantara® trim",
+          "count": 4,
+          "groupLabel1": "interior",
+          "groupLabel3": "windshield inner frame"
+        },
+        {
+          "slug": "PNTN",
+          "name": "Special colours",
+          "count": 4,
+          "groupLabel1": "exterior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "BLUE",
+          "name": "",
+          "count": 4,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "PNTS",
+          "name": "Tricolour livery stripe",
+          "count": 4,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "CHUK",
+          "name": "",
+          "count": 4,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ROL2",
+          "name": "Roll bar, non-track use",
+          "count": 4,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "CITX",
+          "name": "Portabicchieri In Carbonio Spe",
+          "count": 4,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "RSE1",
+          "name": "Entertainment system for rear passengers",
+          "count": 4,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "CUTX",
+          "name": "Coppette Ruota In Carbonio Speciale",
+          "count": 4,
+          "groupLabel1": "exterior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "LEA1",
+          "name": "",
+          "count": 4,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ZITZ",
+          "name": "",
+          "count": 4,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "TMPI",
+          "name": "",
+          "count": 4,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SCUD",
+          "name": "",
+          "count": 4,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "RSM1",
+          "name": "",
+          "count": 4,
+          "groupLabel1": "interior",
+          "groupLabel3": "racing seats"
+        },
+        {
+          "slug": "LITU",
+          "name": "Livrea Tricolore Arco Superiore Volante",
+          "count": 4,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "HGTE",
+          "name": "HGTE variant",
+          "count": 4,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "CUPH",
+          "name": "Cup Holder Su Plancia",
+          "count": 4,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "CIHX",
+          "name": "Cidh In Carbonio Speciale",
+          "count": 4,
+          "groupLabel1": "interior",
+          "groupLabel3": "door handles"
+        },
+        {
+          "slug": "CERS",
+          "name": "Carbon fibre rear aerodynamic flaps",
+          "count": 4,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "PNT0",
+          "name": "2 Layers Special Paints",
+          "count": 3,
+          "groupLabel1": "exterior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "ATTD",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ALLP",
+          "name": "Interior details in matte Grigio Nart",
+          "count": 3,
+          "groupLabel1": "interior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "PIPS",
+          "name": "Cadenino Fianchetti Sedili",
+          "count": 3,
+          "groupLabel1": "interior",
+          "groupLabel3": "piping"
+        },
+        {
+          "slug": "CEAX",
+          "name": "Ceai In Carbonio Speciale",
+          "count": 3,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "AISE",
+          "name": "Inserti Alcantara Fianchetti Sedili",
+          "count": 3,
+          "groupLabel1": "interior",
+          "groupLabel3": "cockpit bands"
+        },
+        {
+          "slug": "CALJ",
+          "name": "Brake Caliper For Japan",
+          "count": 3,
+          "groupLabel1": "exterior",
+          "groupLabel3": "breaks"
+        },
+        {
+          "slug": "RIFD",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CEL0",
+          "name": "Carbon fibre engine compartment",
+          "count": 3,
+          "groupLabel1": "exterior",
+          "groupLabel3": "engine bay"
+        },
+        {
+          "slug": "RSCT",
+          "name": "\"Style\" racing seats in carbon fibre",
+          "count": 3,
+          "groupLabel1": "interior",
+          "groupLabel3": "racing seats"
+        },
+        {
+          "slug": "COSP",
+          "name": "Splitter Laterale Verniciato",
+          "count": 3,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "RSLL",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "interior",
+          "groupLabel3": "racing seats"
+        },
+        {
+          "slug": "DARK",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "RUF4",
+          "name": "Quilted leather headliner ",
+          "count": 3,
+          "groupLabel1": "interior",
+          "groupLabel3": "headliner"
+        },
+        {
+          "slug": "FLA3",
+          "name": "20\" Bridgestone Runflat tyres",
+          "count": 3,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "tyres"
+        },
+        {
+          "slug": "SHF4",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "GTC1",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SHF7",
+          "name": "Rear bench in leather in same colour as vehicle interior",
+          "count": 3,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "HOBL",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SND3",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "LEAF",
+          "name": "\"Leaf\" seats",
+          "count": 3,
+          "groupLabel1": "interior",
+          "groupLabel3": "comfort seats"
+        },
+        {
+          "slug": "SPB1",
+          "name": "sports bag",
+          "count": 3,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "LU61",
+          "name": "1 suit bag",
+          "count": 3,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "TMA1",
+          "name": "Tailor Made 70 Anni - P1-A",
+          "count": 3,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "CEBX",
+          "name": "Celb In Carbonio Speciale",
+          "count": 3,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "TMA4",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CXSS",
+          "name": "Carbon fibre under-door trim",
+          "count": 3,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "TMB1",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "GREY",
+          "name": "Grigio Canna di Fucile exterior details",
+          "count": 3,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "TMB4",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ISSW",
+          "name": "Volante Con Cuciture Tricolore",
+          "count": 3,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "LUG4",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "BATP",
+          "name": "Under-door trim and wheelhouse trim in black leather",
+          "count": 3,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "XENO",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "UMBR",
+          "name": "Umbrella And Luggage Net",
+          "count": 3,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "TVT1",
+          "name": "TV tuner",
+          "count": 3,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "CLAS",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "LITB",
+          "name": "Batteria Alleggerita Al Litio",
+          "count": 3,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "HGTS",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "DSH2",
+          "name": "",
+          "count": 3,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ADAT",
+          "name": "Alutex dashboard accents",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "HGT1",
+          "name": "HGT1 equipment configuration",
+          "count": 2,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "functionality"
+        },
+        {
+          "slug": "60F1",
+          "name": "Final Edition 60 F1 equipment configuration",
+          "count": 2,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "performance package"
+        },
+        {
+          "slug": "HLM1",
+          "name": "",
+          "count": 2,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "AIDL",
+          "name": "Alutex driver zone with LEDs",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "HLM2",
+          "name": "",
+          "count": 2,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "ALDV",
+          "name": "Climate control vents with Alcantara® trim",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "INTP",
+          "name": "Leather interior",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "ALPK",
+          "name": "Allumini Verniciati Pack",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "KORE",
+          "name": "",
+          "count": 2,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ALUP",
+          "name": "Front pillar, rear pillar and upper windscreen cross member trim in Alcantara®",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "windshield inner frame"
+        },
+        {
+          "slug": "LEAT",
+          "name": "",
+          "count": 2,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "BICS",
+          "name": "Verniciatura Bicolore Speciale",
+          "count": 2,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "LINE",
+          "name": "",
+          "count": 2,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CFKY",
+          "name": "Vehicle remote key fob with gloss carbon fibre inserts",
+          "count": 2,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "LTRZ",
+          "name": "Upper part of luggage compartment in leather",
+          "count": 2,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "CSTX",
+          "name": "Striscia Centrale Sedili Extra",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "cockpit bands"
+        },
+        {
+          "slug": "LU12",
+          "name": "2 trolley cases",
+          "count": 2,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "DLBR",
+          "name": "Dream Line Bridge",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "NVT2",
+          "name": "Satellite alarm system (without ADR card)",
+          "count": 2,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "anti-theft"
+        },
+        {
+          "slug": "DPKA",
+          "name": "Alcantara® door pockets",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "PNTH",
+          "name": "Historical Ferrari colours",
+          "count": 2,
+          "groupLabel1": "exterior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "ALCA",
+          "name": "Tunnel panels in Alcantara®",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "R4CM",
+          "name": "Wheels with gloss Black finish (standard style)",
+          "count": 2,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "ALPT",
+          "name": "Alcantara® parts in colour of customer's choice",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "complement parts"
+        },
+        {
+          "slug": "SHFD",
+          "name": "\"Daytona\" style under-door trim and wheelhouse trim",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "daytona stripes"
+        },
+        {
+          "slug": "CEXL",
+          "name": "Lower part of vehicle in carbon-look trim",
+          "count": 2,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "DISC",
+          "name": "",
+          "count": 2,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ZXAT",
+          "name": "",
+          "count": 2,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "WHE3",
+          "name": "Spare wheel kit ",
+          "count": 2,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "tyres"
+        },
+        {
+          "slug": "TANY",
+          "name": "",
+          "count": 2,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SSCX",
+          "name": "Prese Aria Motore Laterali In Carbonio Speciale",
+          "count": 2,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "DLUP",
+          "name": "Dream Line Arco Superiore Volante",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "CL2X",
+          "name": "Cel2 In Carbonio Speciale",
+          "count": 2,
+          "groupLabel1": "exterior",
+          "groupLabel3": "engine bay"
+        },
+        {
+          "slug": "BAG7",
+          "name": "",
+          "count": 2,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ALPD",
+          "name": "Allumini Verniciati Inserti Plancia",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "FLEM",
+          "name": "Bandierina Italia Sottile Poggiatesta",
+          "count": 2,
+          "groupLabel1": "interior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "BAT1",
+          "name": "Under-door trim and wheelhouse trim in technical fabric",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "LITF",
+          "name": "Livrea Tricolore Verniciata Volante",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "ZEXD",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "LITL",
+          "name": "Livrea Tricolore Arco Inferiore Volante",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "AILR",
+          "name": "Centre console in Alutex",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "LIV1",
+          "name": "60F1 Gonzalez livery",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "ALCH",
+          "name": "Interior handles in Alcantara®",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "door handles"
+        },
+        {
+          "slug": "LIV2",
+          "name": "60F1 Alonso livery",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "CARB",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "LSUP",
+          "name": "Mirino Volante In Pelle Monocolore",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "CEDH",
+          "name": "Maniglie Esterne In Carbonio",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "LSUT",
+          "name": "Mirino Volante In Pelle Tricolore",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "CEFX",
+          "name": "Cefb In Carbonio Speciale",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "LTBS",
+          "name": "Luggage compartment in semi-aniline leather",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "CESU",
+          "name": "Spoiler Superiore In Carbonio Lucido",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "LTD2",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CIPX",
+          "name": "Ciip In Carbonio Speciale",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "LTIC",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "carpets"
+        },
+        {
+          "slug": "CRBT",
+          "name": "Carbon Fibre interiors",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "LU02",
+          "name": "1 trolley case + 1 48-hour case",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "CRPN",
+          "name": "Tappeti In Pelle Nera / Alcantara Nera",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "carpets"
+        },
+        {
+          "slug": "LU21",
+          "name": "1 tote bag",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "CRSX",
+          "name": "Cirz In Carbonio Speciale",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "LU51",
+          "name": "1 overnight case",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "DSH3",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "LUG3",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ELEG",
+          "name": "Elegant interior trim configuration",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "LUG5",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "FLA2",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "tyres"
+        },
+        {
+          "slug": "LUG8",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "FR",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "NOFX",
+          "name": "Eliminazione Kit Fix And Go",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "HGT2",
+          "name": "HGTS equipment configuration",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "performance package"
+        },
+        {
+          "slug": "NOSS",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "HOCV",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "PI7S",
+          "name": "Pip7 In Pelle Semianilina",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "cockpit bands"
+        },
+        {
+          "slug": "ICTL",
+          "name": "Inserto Pelle Tunnel Centrale",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "PIP9",
+          "name": "Lower zone of passenger compartment in semi-aniline leather",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "main colour"
+        },
+        {
+          "slug": "INT1",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "PNT5",
+          "name": "Racing livery",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "INTO",
+          "name": "Interni In Pelle Speciale",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "PNTA",
+          "name": "Additional colours",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "INTX",
+          "name": "Pelle Extracampionario",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "PNTC",
+          "name": "\"Anni '50 e '60\" paint colour",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "LIMF",
+          "name": "Livrea Monocolore Volante (Full)",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "liveries"
+        },
+        {
+          "slug": "PNTE",
+          "name": "Colori Vernice Speciali",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "AB",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "PNTT",
+          "name": "Special triple layer colour",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "CEFO",
+          "name": "Carbon fibre undertray",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "PP",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CFLH",
+          "name": "Sportello Carburante In Carbonio",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "RCCF",
+          "name": "Carbon fibre audio system bezel",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "CRBX",
+          "name": "Cerb In Carbonio Speciale",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "RIMZ",
+          "name": "19\" two-piece wheels, diamond-polished",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "CZBX",
+          "name": "Cizb In Carbonio Speciale",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "RINT",
+          "name": "“Reverse” interior trim configuration",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "ENT1",
+          "name": "Entertainment pack",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "infotainment"
+        },
+        {
+          "slug": "RSCA",
+          "name": "Sedile Racing In Alutex",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "racing seats"
+        },
+        {
+          "slug": "GLF3",
+          "name": "Golf bag",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "luggage sets"
+        },
+        {
+          "slug": "RSFG",
+          "name": "Cerchi Forgiati - Grigio Corsa Opaco / Diamantato Opaco",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "rims"
+        },
+        {
+          "slug": "HSGA",
+          "name": "Cavallino Satinato Portello Carburante",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "others"
+        },
+        {
+          "slug": "RUFS",
+          "name": "Semi-aniline leather headliner",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "headliner"
+        },
+        {
+          "slug": "INT2",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "SNDJ",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "LIDA",
+          "name": "Inserto Pelle Pogg. Pannello Porta",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "SRL1",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CARR",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "STCT",
+          "name": "Colour-matched stitching",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "stitching"
+        },
+        {
+          "slug": "CLDS",
+          "name": "Passenger compartment details in semi-aniline leather",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "complement parts"
+        },
+        {
+          "slug": "STLP",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "DUAD",
+          "name": "Dual colour leather interior trim",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "complement parts"
+        },
+        {
+          "slug": "STOR",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "HGTC",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "STWR",
+          "name": "Reflective leather trim for steering wheel in colour of customer's choice",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "upper dashboard"
+        },
+        {
+          "slug": "INTR",
+          "name": "Reflective leather interior trim",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "main color"
+        },
+        {
+          "slug": "CEMP",
+          "name": "Matte finish for exterior carbon fibre",
+          "count": 1,
+          "groupLabel1": "exterior",
+          "groupLabel3": "body details"
+        },
+        {
+          "slug": "ZEL2",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ZEIS",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "ZEFS",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "TYGY",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "CRPX",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "details"
+        },
+        {
+          "slug": "AISK",
+          "name": "Alutex outer kickplate",
+          "count": 1,
+          "groupLabel1": "interior",
+          "groupLabel3": "carbon"
+        },
+        {
+          "slug": "INED",
+          "name": "",
+          "count": 1,
+          "groupLabel1": "",
+          "groupLabel3": ""
+        },
+        {
+          "slug": "FLM2",
+          "name": "Extra Set Sovratappeti",
+          "count": 1,
+          "groupLabel1": "equipment & travel",
+          "groupLabel3": "others"
+        }
+      ]
+    },
+    "fixedString": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 0,
+        "order": 2,
+        "param": "f",
+        "inUrl": true,
+        "type": "fixed",
+        "isVisible": false
+      },
+      "options": "used-ferrari"
+    },
+    "coordinates": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 12,
+        "order": 13,
+        "param": "g",
+        "inUrl": false,
+        "type": "geo",
+        "isVisible": true
+      },
+      "options": []
+    },
+    "ads": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 0,
+        "order": 14,
+        "param": "w",
+        "inUrl": false,
+        "type": "checkbox",
+        "isVisible": false
+      },
+      "options": []
+    },
+    "pageLimit": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 0,
+        "order": 15,
+        "param": "pl",
+        "inUrl": false,
+        "type": "page-limit",
+        "isVisible": false
+      },
+      "options": []
+    },
+    "sortTypes": {
+      "details": {
+        "isQuickFilter": false,
+        "canSelectUpdate": true,
+        "uiOrder": 0,
+        "order": 16,
+        "param": "z",
+        "inUrl": false,
+        "type": "select",
+        "isVisible": false
+      },
+      "options": [
+        {
+          "name": "price-asc",
+          "slug": "price-asc"
+        },
+        {
+          "name": "price-desc",
+          "slug": "price-desc"
+        },
+        {
+          "name": "year-asc",
+          "slug": "year-asc"
+        },
+        {
+          "name": "year-desc",
+          "slug": "year-desc"
+        },
+        {
+          "name": "odometer-asc",
+          "slug": "odometer-asc"
+        },
+        {
+          "name": "odometer-desc",
+          "slug": "odometer-desc"
+        },
+        {
+          "name": "publishDate-desc",
+          "slug": "publishDate-desc"
+        }
+      ]
+    }
+  }
+}
