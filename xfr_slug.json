@@ -1,0 +1,366 @@
+[
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/north-america/used-ferrari/usa/rfc",
+    "region": "NA",
+    "country": "USA",
+    "cou_slug": "US",
+    "count": 821
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/great-britain/rfc",
+    "region": "EU",
+    "country": "Great Britain",
+    "cou_slug": "GB",
+    "count": 260
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/germany/rfc",
+    "region": "EU",
+    "country": "Germany",
+    "cou_slug": "DE",
+    "count": 151
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/north-america/used-ferrari/canada/rfc",
+    "region": "NA",
+    "country": "Canada",
+    "cou_slug": "CA",
+    "count": 121
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/switzerland/rfc",
+    "region": "EU",
+    "country": "Switzerland",
+    "cou_slug": "CH",
+    "count": 102
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/france/rfc",
+    "region": "EU",
+    "country": "France",
+    "cou_slug": "FR",
+    "count": 101
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/japan/rfc",
+    "region": "AP",
+    "country": "Japan",
+    "cou_slug": "JP",
+    "count": 54
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/australia/rfc",
+    "region": "AP",
+    "country": "Australia",
+    "cou_slug": "AU",
+    "count": 49
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/italy/rfc",
+    "region": "EU",
+    "country": "Italy",
+    "cou_slug": "IT",
+    "count": 48
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/korea-south/rfc",
+    "region": "AP",
+    "country": "Korea-South",
+    "cou_slug": "KR",
+    "count": 42
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/belgium/rfc",
+    "region": "EU",
+    "country": "Belgium",
+    "cou_slug": "BE",
+    "count": 29
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/netherlands/rfc",
+    "region": "EU",
+    "country": "Netherlands",
+    "cou_slug": "NL",
+    "count": 28
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/norway/rfc",
+    "region": "EU",
+    "country": "Norway",
+    "cou_slug": "NO",
+    "count": 23
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/monaco/rfc",
+    "region": "EU",
+    "country": "Monaco",
+    "cou_slug": "MC",
+    "count": 19
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/middle-east-africa/used-ferrari/south-africa/rfc",
+    "region": "MEA",
+    "country": "South Africa",
+    "cou_slug": "ZA",
+    "count": 19
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/poland/rfc",
+    "region": "EU",
+    "country": "Poland",
+    "cou_slug": "PL",
+    "count": 18
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/finland/rfc",
+    "region": "EU",
+    "country": "Finland",
+    "cou_slug": "FI",
+    "count": 17
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/greater-china/used-ferrari/hong-kong/rfc",
+    "region": "GC",
+    "country": "Hong Kong",
+    "cou_slug": "HK",
+    "count": 16
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/denmark/rfc",
+    "region": "EU",
+    "country": "Denmark",
+    "cou_slug": "DK",
+    "count": 16
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/greater-china/used-ferrari/mainland-china/rfc",
+    "region": "GC",
+    "country": "Mainland China",
+    "cou_slug": "CN",
+    "count": 15
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/czech-republic/rfc",
+    "region": "EU",
+    "country": "Czech Republic",
+    "cou_slug": "CZ",
+    "count": 11
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/singapore/rfc",
+    "region": "AP",
+    "country": "Singapore",
+    "cou_slug": "SG",
+    "count": 11
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/austria/rfc",
+    "region": "EU",
+    "country": "Austria",
+    "cou_slug": "AT",
+    "count": 10
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/spain/rfc",
+    "region": "EU",
+    "country": "Spain",
+    "cou_slug": "ES",
+    "count": 9
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/thailand/rfc",
+    "region": "AP",
+    "country": "Thailand",
+    "cou_slug": "TH",
+    "count": 9
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/middle-east-africa/used-ferrari/u-a-e-/rfc",
+    "region": "MEA",
+    "country": "U.A.E.",
+    "cou_slug": "AE",
+    "count": 8
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/hungary/rfc",
+    "region": "EU",
+    "country": "Hungary",
+    "cou_slug": "HU",
+    "count": 6
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/middle-east-africa/used-ferrari/bahrain/rfc",
+    "region": "MEA",
+    "country": "Bahrain",
+    "cou_slug": "BH",
+    "count": 5
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/bulgaria/rfc",
+    "region": "EU",
+    "country": "Bulgaria",
+    "cou_slug": "BG",
+    "count": 5
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/cyprus/rfc",
+    "region": "EU",
+    "country": "Cyprus",
+    "cou_slug": "CY",
+    "count": 5
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/indonesia/rfc",
+    "region": "AP",
+    "country": "Indonesia",
+    "cou_slug": "ID",
+    "count": 4
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/middle-east-africa/used-ferrari/kuwait/rfc",
+    "region": "MEA",
+    "country": "Kuwait",
+    "cou_slug": "KW",
+    "count": 4
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/new-zealand/rfc",
+    "region": "AP",
+    "country": "New Zealand",
+    "cou_slug": "NZ",
+    "count": 4
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/sweden/rfc",
+    "region": "EU",
+    "country": "Sweden",
+    "cou_slug": "SE",
+    "count": 4
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/greater-china/used-ferrari/taiwan/rfc",
+    "region": "GC",
+    "country": "Taiwan",
+    "cou_slug": "TW",
+    "count": 3
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/luxembourg/rfc",
+    "region": "EU",
+    "country": "Luxembourg",
+    "cou_slug": "LU",
+    "count": 3
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/turkey/rfc",
+    "region": "EU",
+    "country": "Turkey",
+    "cou_slug": "TR",
+    "count": 2
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/portugal/rfc",
+    "region": "EU",
+    "country": "Portugal",
+    "cou_slug": "PT",
+    "count": 2
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/malaysia/rfc",
+    "region": "AP",
+    "country": "Malaysia",
+    "cou_slug": "MY",
+    "count": 2
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/middle-east-africa/used-ferrari/israel/rfc",
+    "region": "MEA",
+    "country": "Israel",
+    "cou_slug": "IL",
+    "count": 1
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/romania/rfc",
+    "region": "EU",
+    "country": "Romania",
+    "cou_slug": "RO",
+    "count": 1
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/middle-east-africa/used-ferrari/morocco/rfc",
+    "region": "MEA",
+    "country": "Morocco",
+    "cou_slug": "MA",
+    "count": 1
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/middle-east-africa/used-ferrari/saudi-arabia/rfc",
+    "region": "MEA",
+    "country": "Saudi Arabia",
+    "cou_slug": "SA",
+    "count": 1
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/vietnam/rfc",
+    "region": "AP",
+    "country": "Vietnam",
+    "cou_slug": "VN",
+    "count": 0
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/india/rfc",
+    "region": "AP",
+    "country": "India",
+    "cou_slug": "IN",
+    "count": 0
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/greece/rfc",
+    "region": "EU",
+    "country": "Greece",
+    "cou_slug": "GR",
+    "count": 0
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/middle-east-africa/used-ferrari/qatar/rfc",
+    "region": "MEA",
+    "country": "Qatar",
+    "cou_slug": "QA",
+    "count": 0
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/russia/rfc",
+    "region": "EU",
+    "country": "Russia",
+    "cou_slug": "RU",
+    "count": 0
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/europe/used-ferrari/azerbaijan/rfc",
+    "region": "EU",
+    "country": "Azerbaijan",
+    "cou_slug": "AZ",
+    "count": 0
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/middle-east-africa/used-ferrari/oman/rfc",
+    "region": "MEA",
+    "country": "Oman",
+    "cou_slug": "OM",
+    "count": 0
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/asia-pacific/used-ferrari/philippines/rfc",
+    "region": "AP",
+    "country": "Philippines",
+    "cou_slug": "PH",
+    "count": 0
+  },
+  {
+    "slug": "https://preowned.ferrari.com/en-US/r/middle-east-africa/used-ferrari/lebanon/rfc",
+    "region": "MEA",
+    "country": "Lebanon",
+    "cou_slug": "LB",
+    "count": 0
+  }
+]
